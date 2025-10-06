@@ -4,7 +4,7 @@ permalink: reference-limitations.html
 keywords: limitations, system manager, unsupported features, on-premises ONTAP in NetApp Console 
 summary: 已知限制標識了該產品的此版本不支援或無法與其正確互通的平台、裝置或功能。仔細審查這些限制。 
 ---
-= 在NetApp控制台中管理本地ONTAP叢集的已知限制
+= 在NetApp Console中管理本地ONTAP叢集的已知限制
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -49,7 +49,7 @@ https://docs.netapp.com/us-en/asa-r2/index.html["了解有關ASA r2 系統的更
 +
 使用直接發現選項，每次在控制台中開啟系統時，系統都會提示您使用ONTAP憑證登入。
 
-* NetApp備份和恢復激活
+* NetApp Backup and Recovery激活
 +
 叢集版本必須為 9.13.1 才能從系統管理員啟用備份和還原。
 

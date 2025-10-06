@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
-summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用控制台提供的ONTAP系統管理器管理磁碟區並執行高階管理。 
+summary: 從NetApp Console發現本機ONTAP叢集，以便您可以開始使用控制台提供的ONTAP系統管理器管理磁碟區並執行高階管理。 
 ---
-= 在NetApp控制台中發現本地ONTAP集群
+= 在NetApp Console中發現本地ONTAP集群
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 
 
 [role="lead"]
-從NetApp控制台發現本機ONTAP叢集，以便您可以直接從控制台開始使用ONTAP系統管理器管理磁碟區並執行高階管理。
+從NetApp Console發現本機ONTAP叢集，以便您可以直接從控制台開始使用ONTAP系統管理員管理磁碟區並執行高階管理。
 
 .所需的控制台角色：
-儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色。"^]
+儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
 
 
 
@@ -28,8 +28,8 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 使用控制台代理進行發現和管理:: 此選項可讓您使用下列功能管理執行ONTAP 8.3 及更高版本的叢集：
 +
 --
-* 透過NetApp控制臺本機提供基本磁碟區操作
-* ONTAP系統管理器（支援ONTAP 9.10.0 及更高版本），直接從控制台存取每個對應叢集的系統管理器
+* 透過NetApp Console本機提供基本磁碟區操作
+* ONTAP系統管理器（ ONTAP 9.10.0 及更高版本支援），直接從控制台存取每個對應叢集的系統管理器
 * 與提供資料複製、備份和還原、資料分類和雲端分層的 NetApp資料服務集成
 * 您必須具有組織管理員角色才能安裝控制台代理程式。如果您有任何疑問，請聯絡您的控制台管理員。 https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html#contact-your-organization-administrator["聯絡您的組織管理員。"^]
 
@@ -47,7 +47,7 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 
 一旦發現，您的叢集就會在控制台的「*系統*」頁面上可用。
 
-如果您決定將控制台代理程式新增至NetApp控制台，則需要從「未發現的系統」頁面重新新增本機叢集。這使得能夠從控制台進行本地管理並存取NetApp資料服務。然後您應該刪除另一個系統。
+如果您決定將控制台代理程式新增至NetApp Console，則需要從 *未發現的系統* 頁面重新新增本機叢集。這使得能夠從控制台進行本地管理並存取NetApp資料服務。然後您應該刪除另一個系統。
 
 
 
@@ -77,7 +77,7 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 +
 ** https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html["了解控制台代理"^]
 ** https://docs.netapp.com/us-en/console-setup-admin/task-manage-multiple-connectors.html["了解如何在多個代理之間切換"^]
-** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解NetApp雲端分層"^]
+** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解NetApp Cloud Tiering"^]
 
 
 * 代理主機必須允許透過連接埠 443 (HTTPS) 進行出站連接，且ONTAP叢集必須允許透過連接埠 443 進行到叢集管理 LIF 的入站 HTTP 存取。
@@ -91,7 +91,7 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 +
 --
 * 本機叢集必須執行ONTAP 9.12.1 或更高版本。
-* 叢集必須具有與NetApp控制台服務的入站和出站連線：
+* 叢集必須具有與NetApp Console服務的入站和出站連線：
 +
 \ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 
@@ -108,7 +108,7 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 透過以下兩種方式之一從控制台發現您的本機ONTAP叢集：
 
 * 從 *儲存 > 管理 > 系統* 中，選擇 *新增 +* 並手動新增有關本機ONTAP叢集的詳細資訊。
-* 從*儲存>管理>可發現系統*中選擇控制台根據與您的NetApp控制台登入電子郵件地址關聯的ONTAP叢集預先發現的叢集。
+* 從*儲存>管理>可發現系統*中選擇控制台根據與您的NetApp Console登入電子郵件地址關聯的ONTAP叢集預先發現的叢集。
 
 
 當您啟動發現過程時，控制台會如下發現叢集：
@@ -131,7 +131,7 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 . 在「發現」頁面上，輸入叢集管理 IP 位址和管理員使用者帳戶的密碼。
 . 如果您直接發現叢集（無需控制台代理），請選擇*儲存憑證*。
 +
-如果選擇此選項，則每次從控制台存取系統時無需重新輸入憑證。這些憑證與您自己的NetApp控制台使用者登入相關聯。它們不會被保存以供NetApp Console 組織中的其他任何人使用。
+如果選擇此選項，則每次從控制台存取系統時無需重新輸入憑證。這些憑證與您自己的NetApp Console使用者登入相關聯。它們不會被保存以供NetApp Console組織中的任何其他人使用。
 
 . 選擇*發現*。
 +
@@ -149,30 +149,30 @@ summary: 從NetApp控制台發現本機ONTAP叢集，以便您可以開始使用
 --
 .新增預先發現的集群
 --
-控制台發現與您的登入電子郵件連結的ONTAP集群，並在 *可發現的系統* 頁面上將其顯示為未發現的集群。您可以查看未發現的集群列表並逐一添加它們。
+控制台發現與您的登入電子郵件連結的ONTAP集群，並在 *Discoverable systems* 頁面上將其顯示為未發現的集群。您可以查看未發現的集群列表並逐一添加它們。
 
 .關於此任務
-請注意「可發現的系統」頁面上顯示的本機ONTAP叢集的以下資訊：
+請注意「Discoverable systems」頁面上顯示的本機ONTAP叢集的以下資訊：
 
 * 您用於登入控制台的電子郵件地址必須與已註冊的全級NetApp支援網站 (NSS) 帳戶相關聯。
 +
-** 如果您使用 NSS 帳戶登入控制台並導覽至「可發現的系統」頁面，控制台將使用該 NSS 帳戶來尋找與該帳戶關聯的叢集。
-** 如果您使用本機帳戶或聯合連線登入控制台並導覽至*可發現的系統*頁面，控制台會提示您驗證您的電子郵件。如果該電子郵件地址與 NSS 帳戶關聯，控制台將使用該資訊來尋找與該帳戶關聯的叢集。
+** 如果您使用 NSS 帳戶登入控制台並導覽至 *Discoverable systems* 頁面，控制台將使用該 NSS 帳戶來尋找與該帳戶關聯的叢集。
+** 如果您使用本機帳戶或聯合連線登入控制台並導覽至*Discoverable systems*頁面，控制台會提示您驗證您的電子郵件。如果該電子郵件地址與 NSS 帳戶關聯，控制台將使用該資訊來尋找與該帳戶關聯的叢集。
 
 
 * 控制台僅顯示已成功向NetApp傳送AutoSupport訊息的ONTAP叢集。
-* 若要刷新庫存清單，請退出「可發現系統」頁面，等待 5 分鐘，然後返回。
+* 若要刷新庫存清單，請退出*Discoverable systems*頁面，等待 5 分鐘，然後返回。
 
 
 .步驟
 . 從導覽選單中，選擇*儲存>管理*。
-. 在 *可發現系統* 頁面上，選擇本機ONTAP的 *發現*。
+. 在 *Discoverable systems* 頁面上，選擇本機ONTAP的 *發現*。
 +
-image:screenshot-my-estate-ontap.png["可發現系統頁面的螢幕截圖，其中顯示了 12 個未發現的本地ONTAP叢集。"]
+image:screenshot-my-estate-ontap.png["Discoverable systems頁面的螢幕截圖，其中顯示了 12 個未發現的本地ONTAP叢集。"]
 
 . 選擇一個集群，然後選擇*發現*。
 +
-image:screenshot-my-estate-ontap-discover.png["可發現系統頁面的螢幕截圖，其中顯示了 12 個未發現的本地ONTAP叢集。"]
+image:screenshot-my-estate-ontap-discover.png["Discoverable systems頁面的螢幕截圖，其中顯示了 12 個未發現的本地ONTAP叢集。"]
 
 . 輸入管理者使用者帳戶的密碼。
 . 選擇*發現*。

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="87377698a8dca305b9579a13060142f2" category="doc">創建FlexGroup卷</block>
+  <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">如果您使用連接器管理集群，現在可以使用BlueXP API 建立FlexGroup磁碟區。</block>
+  <block id="ca513b668252beaae65808764fc2388f" category="inline-link">了解如何建立FlexGroup卷</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
+  <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">了解什麼是FlexGroup卷</block>
+  <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="doc">不再支援磁碟區模板</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此操作與BlueXP修復服務相關，但該服務不再可用。</block>
+  <block id="1e095c69621645fccc8f12cd7f35f6fc" category="doc">支援ASA r2 系統</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">現在，在標準模式或限制模式下使用BlueXP時，您可以在BlueXP中發現NetApp ASA r2 系統。發現NetApp ASA r2 系統並開啟工作環境後，您將直接進入系統管理員。</block>
+  <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA r2 系統沒有其他可用的管理選項。您無法使用標準視圖，也無法啟用BlueXP服務。</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">在私人模式下使用BlueXP時不支援發現ASA r2 系統。</block>
+  <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">了解有關ASA r2 系統的更多信息</block>
+  <block id="a7c7539e11570decc041c60258667032" category="list-text"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">了解BlueXP部署模式</block>
+  <block id="1fbeb219941cbb548a79e88d779ddaeb" category="list-text"><block ref="1fbeb219941cbb548a79e88d779ddaeb" category="inline-link-rx"></block></block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">支援具有私有模式的ASA r2 系統</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">現在，您可以在私人模式下使用BlueXP時發現NetApp ASA r2 系統。從BlueXP 3.9.46 私有模式版本開始提供此支援。</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">需要BlueXP訪問角色</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">了解訪問角色。</block>
+  <block id="c33f8c65624465d916ec23f462428c02" category="paragraph">現在，您需要以下存取角色之一來查看、發現或管理本機ONTAP叢集：組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 <block ref="77eb7cc86be774e9cb4fdfac100bd232" category="inline-link-macro-rx"></block></block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP現在是NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console發行說明</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">有關更改的詳細信息，請參閱<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>。</block>
+  <block id="8f091d30f3f7b297ff75d0037ea8d7bf" category="summary">數位顧問使您能夠優化ONTAP叢集的操作、安全性和效能。</block>
+  <block id="767f8e46413ca208f7f2fbdc36377c43" category="doc">使用NetApp Digital Advisor優化叢集</block>
+  <block id="784fa467296efc0294ee0be27082dc4d" category="paragraph">NetApp Digital Advisor 讓您能夠最佳化ONTAP叢集的操作、安全性和效能。</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">特徵</block>
+  <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">您可以使用Digital Advisor查看儲存系統的整體狀態、有關係統健康狀況的高級資訊、庫存、計劃、升級以及監視清單層級的寶貴見解。</block>
+  <block id="cd5d4df84a7902a777304de9ff13e8a8" category="list-text">分析並優化儲存系統的健康狀況</block>
+  <block id="9d4e486fd4968dd03a1921222e688c12" category="list-text">深入了解儲存系統的所有風險以及降低風險的措施</block>
+  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">透過查看效能資料的圖形格式來分析儲存設備的效能</block>
+  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">獲取有關容量超過 90% 或接近 90% 的系統的詳細信息</block>
+  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">獲取有關未來 6 個月內已過期或即將過期的硬體和軟體的信息</block>
+  <block id="c0b44a835cfaa8886063c96fb9342411" category="list-text">使用 Ansible 升級儲存系統軟體並更新ONTAP韌體</block>
+  <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="section-title">支援的ONTAP系統</block>
+  <block id="506bd7eab061c4dfb862025b64c70f67" category="paragraph">Digital Advisor提供與您的NetApp支援網站 (NSS) 帳戶相關的所有本機ONTAP系統和Cloud Volumes ONTAP系統的資訊。</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">更多資訊</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor文檔</block>
+  <block id="f38c64bbd8ec17fdea3c3b931a5333c6" category="paragraph"><block ref="f38c64bbd8ec17fdea3c3b931a5333c6" category="inline-link-rx"></block></block>
+  <block id="9be2e2782724eee71ac661baa093339d" category="summary">您可以從NetApp Console管理在AFF/ FAS控制器和ONTAP Select上執行的ONTAP叢集。將本機ONTAP系統新增至NetApp Console，您可以從單一介面管理所有儲存和資料資產。</block>
+  <block id="efd8b4aecde4d837ab44ddaf52e7657d" category="doc">了解NetApp Console中的本機ONTAP叢集管理</block>
+  <block id="f79dd7235ac6a15f707932f36bda08ef" category="paragraph">您可以從NetApp Console管理在AFF/ FAS控制器和ONTAP Select上執行的ONTAP叢集。將本機ONTAP系統新增至控制台可讓您集中管理所有儲存和資料資產。</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
+  <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。</block>
+  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">您不需要許可證或訂閱即可開始使用NetApp Console，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連線時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。</block>
+  <block id="1a90436cad6b2c834a6f0bf4b63bb676" category="paragraph">詳細了解<block ref="185be9890bef04443cd0fba90b4aff11" category="inline-link-rx"></block>。</block>
+  <block id="fb24315d532abea28c978f8643868013" category="list-text">管理 NFS 和 CIFS 卷</block>
+  <block id="adb56ad9cd1545569d057a0870829609" category="list-text">透過控制台存取任何託管叢集的ONTAP系統管理器</block>
+  <block id="149beeefe15ab521c1672c4e84d98080" category="list-text">透過分析和控制獲得健康和性能可觀察性</block>
+  <block id="6c8bfbe0372128cde27631bc56cfcf04" category="list-text">使用數據服務複製、備份、掃描、分類和分層數據</block>
+  <block id="e6330d5106c771279d9ad23928f958fb" category="list-text">在控制台中查看硬體和軟體合約狀態信息</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
+  <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">可能會產生相關費用，但這取決於以下因素：</block>
+  <block id="57680964089872f9d337e05bf8bfb358" category="list-text">您可以在其中部署控制台代理程式來發現和管理您的叢集。</block>
+  <block id="e56122aac65ec47b6ddcc405622fcf5b" category="paragraph">您可以在雲端或本機安裝控制台代理程式。在雲端安裝控制台代理程式需要花費成本。</block>
+  <block id="f2c1c0f041fc340f7b70252f040e3924" category="list-text">無論您使用NetApp資料服務（例如NetApp Backup and Recovery、 NetApp Ransomware Resilience等）。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供對版權聲明、商標、專利等的存取。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP、NETAPP 標誌和NetApp商標頁面上列出的標誌是NetApp, Inc. 的商標。其他公司和產品名稱可能是其各自所有者的商標。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp擁有的專利的最新清單可在以下位置找到：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開源</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有關NetApp軟體中使用的第三方版權和許可的資訊。</block>
+  <block id="4fd101b562f1e5e8d87ff8710122a42f" category="inline-link">NetApp Console通知</block>
+  <block id="665acc6d2ee48d5efd698763b6fbf735" category="paragraph"><block ref="665acc6d2ee48d5efd698763b6fbf735" category="inline-link-rx"></block></block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制標識了該產品的此版本不支援或無法與其正確互通的平台、裝置或功能。仔細審查這些限制。</block>
+  <block id="7b021d8490de77d09ad0aabce1db0694" category="doc">在NetApp Console中管理本地ONTAP叢集的已知限制</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">與ASA r2 系統相關的限制</block>
+  <block id="d7e2ff6c1b6b7d25b9f3596567029677" category="paragraph">發現NetApp ASA r2 系統後，您將被導向到系統管理員。</block>
+  <block id="07e9fa47446b3dea7b31d268b8760d64" category="paragraph">ASA r2 系統沒有其他可用的管理選項。您無法使用標準視圖，也無法啟用NetApp資料服務。</block>
+  <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">不受支援的集群</block>
+  <block id="d914c3ca19e356b58a16e8c87724687e" category="paragraph">控制台不支援配置了 SAML 身份驗證的本機ONTAP叢集。</block>
+  <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">系統管理器限制</block>
+  <block id="c48fa27882b16b947546d090d526b250" category="paragraph">控制台不支援以下系統管理員功能：</block>
+  <block id="e710f9addfdf1e48c1320d497696c4fc" category="list-text">集群設定</block>
+  <block id="7c42f36290d675f4df34ac5b9a187686" category="paragraph">在本機ONTAP叢集上設定管理 IP 位址並配置管理員密碼後，您可以在控制台中發現該叢集。</block>
+  <block id="ee74e57c3f99de5bd2475a3fe235ef15" category="list-text">基於角色的存取控制（僅限控制台代理）</block>
+  <block id="5c782b002503290f00acf76f2db6e2fc" category="paragraph">使用控制台代理程式發現和管理本機ONTAP叢集時，系統管理員不支援基於角色的存取控制。在發現過程中，系統會提示您輸入管理員憑證。這些憑證用於系統管理員所採取的所有操作。</block>
+  <block id="0f91ddbe2a031c0bffbbaf61ec855f75" category="paragraph">使用直接發現選項，每次在控制台中開啟系統時，系統都會提示您使用ONTAP憑證登入。</block>
+  <block id="7786dc709b32a1c2b29500a444f79e9a" category="list-text">NetApp Backup and Recovery激活</block>
+  <block id="48bf063e534e95acdf29f80c45924be0" category="paragraph">叢集版本必須為 9.13.1 才能從系統管理員啟用備份和還原。</block>
+  <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link">了解如何開始</block>
+  <block id="4e9d48b6b56c65fb46ddd5e6460277e9" category="paragraph">如果您沒有使用控制台代理程式發現集群，那麼您就無法使用系統管理器（進階視圖）來啟用備份和還原。但是，您可以直接從控制台在本機叢集上啟用備份和還原。<block ref="e3bdf105d163a62b1d83e3f92f872319" category="inline-link-rx"></block></block>
+  <block id="dc7f30ec5bd878efd2189fe1b0703118" category="list-text">按需升級</block>
+  <block id="9eb06491d0dc3d6fae682e802616dce9" category="paragraph">如果叢集版本為ONTAP 9.9.1 或更早版本，則無法按需升級韌體和軟體。</block>
+  <block id="face24e32703b96941a0a9f58cab36d4" category="paragraph">如果您沒有控制台代理，則無法從本機電腦進行更新，只能從可使用控制台存取的伺服器進行更新。</block>
+  <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">全域搜尋</block>
+  <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">使用者介面設定</block>
+  <block id="969c8dcbcecafedce576ae70c4a3c692" category="summary">從NetApp Console發現本機ONTAP叢集，以便您可以開始使用控制台提供的ONTAP系統管理器管理磁碟區並執行高階管理。</block>
+  <block id="d1b29fc7b35be872f620d5d931e8766c" category="doc">在NetApp Console中發現本地ONTAP集群</block>
+  <block id="1730b42e5b59042dfdc6f3d1a901abe8" category="paragraph">從NetApp Console發現本機ONTAP叢集，以便您可以直接從控制台開始使用ONTAP系統管理員管理磁碟區並執行高階管理。</block>
+  <block id="087c69ac86f405646aaecdc0b84eba8d" category="paragraph-title">所需的控制台角色：</block>
+  <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">了解NetApp Console存取角色。</block>
+  <block id="0b1b216f94a80b2e5f3b3d7a4cad23c5" category="paragraph">儲存管理員或系統健康專家。<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="d3d762abdaccb1dfe422eda709146098" category="section-title">步驟 1：查看發現和管理選項</block>
+  <block id="ae75b75301ec9eda499a56de00351e72" category="paragraph">您可以透過兩種方式將本機ONTAP叢集新增至控制台。您選擇的方式取決於您的組織中是否安裝了控制台代理：</block>
+  <block id="b2a374ced122f79938316510ffaddc25" category="list-text">使用控制台代理進行發現和管理</block>
+  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">此選項可讓您使用下列功能管理執行ONTAP 8.3 及更高版本的叢集：</block>
+  <block id="cd003ebb69eeea87816020f61834620c" category="list-text">透過NetApp Console本機提供基本磁碟區操作</block>
+  <block id="0b5d7397550ec392177f9f574abdf9c2" category="list-text">ONTAP系統管理器（ ONTAP 9.10.0 及更高版本支援），直接從控制台存取每個對應叢集的系統管理器</block>
+  <block id="a1471a8ede662ca724fd280a1005d7f9" category="list-text">與提供資料複製、備份和還原、資料分類和雲端分層的 NetApp資料服務集成</block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">聯絡您的組織管理員。</block>
+  <block id="2e85119401bde157dbfaceb326ffc24e" category="list-text">您必須具有組織管理員角色才能安裝控制台代理程式。如果您有任何疑問，請聯絡您的控制台管理員。<block ref="23553e4bd18aac58793088224d68bd3d" category="inline-link-rx"></block></block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">直接發現與管理</block>
+  <block id="35a995f567662305fca4eed3895deb78" category="list-text">透過此選項，您可以使用系統管理員管理執行ONTAP 9.12.1 及更高版本的叢集。沒有其他可用的管理選項。您無法使用標準視圖，也無法啟用NetApp資料服務。</block>
+  <block id="aa6c67316f44ea02c19cc637b2c2ef63" category="paragraph">此選項不需要控制台代理。</block>
+  <block id="e04b8c0ecfdcffe032cc01cf84214437" category="paragraph">當您在執行 9.12.1 或更高版本的本機ONTAP叢集上存取與控制台連接的系統管理員時，系統會提示您直接從控制台管理叢集。如果您按照此提示操作，它將使用直接發現選項在控制台中發現叢集。</block>
+  <block id="63e4fa81df4f8716cfcd36c8cd6e6d22" category="paragraph">一旦發現，您的叢集就會在控制台的「*系統*」頁面上可用。</block>
+  <block id="87b2f736c3f72f1fe06a64c91dbe3f5e" category="paragraph">如果您決定將控制台代理程式新增至NetApp Console，則需要從 *未發現的系統* 頁面重新新增本機叢集。這使得能夠從控制台進行本地管理並存取NetApp資料服務。然後您應該刪除另一個系統。</block>
+  <block id="663060c661d21dbe1c32242cc8731f0e" category="section-title">第 2 步：設定環境</block>
+  <block id="3eb7e8933c13ab4b897e0a64baedf0fc" category="paragraph">在發現本機ONTAP叢集之前，請確保您已符合下列要求。</block>
+  <block id="a1a264e616e24563d4b8f8b5795ea403" category="list-text">一般要求</block>
+  <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要叢集管理 IP 位址和管理員使用者帳戶的密碼。</block>
+  <block id="f1dc34ed21a60c010809ad3f51a48991" category="list-text">控制台使用 HTTPS 發現ONTAP叢集。如果您使用自訂防火牆策略，則ONTAP叢集必須允許透過連接埠 443 進行入站 HTTPS 存取。</block>
+  <block id="c14049c05a3e44d0e3fae4bfd918619f" category="paragraph">預設的「mgmt」防火牆策略允許來自所有 IP 的入站 HTTPS 存取。如果修改，請確保代理主機啟用了 HTTPS 協定。</block>
+  <block id="e82f46590519b9334e39aabe565ff654" category="list-text">使用控制台代理發現系統</block>
+  <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">本機叢集必須執行ONTAP 8.3 或更高版本。</block>
+  <block id="98a48922296ab16b4da9f0a6ddd0c403" category="list-text">您必須在雲端提供者或您的場所安裝控制台代理。</block>
+  <block id="170449681ba6744c89ff5e9d6f3adc86" category="paragraph">若要將冷資料分層到雲，請查看目標環境的代理要求。</block>
+  <block id="91e534d044a3d9c6a1c8575f89e73c9b" category="inline-link">了解控制台代理</block>
+  <block id="299091a5cbcad3c418786b0de4d0c3b0" category="list-text"><block ref="299091a5cbcad3c418786b0de4d0c3b0" category="inline-link-rx"></block></block>
+  <block id="096686bce670ae5bcba683b41a15fa90" category="inline-link">了解如何在多個代理之間切換</block>
+  <block id="de4fbbe08ea86732dd8f806479644bdd" category="list-text"><block ref="de4fbbe08ea86732dd8f806479644bdd" category="inline-link-rx"></block></block>
+  <block id="3b50aa74e0572012073a00299390197e" category="inline-link">了解NetApp Cloud Tiering</block>
+  <block id="096f3dec18cbaace57ae0aed5243222a" category="list-text"><block ref="096f3dec18cbaace57ae0aed5243222a" category="inline-link-rx"></block></block>
+  <block id="5caa875315778ebb3bef681af57a0582" category="list-text">代理主機必須允許透過連接埠 443 (HTTPS) 進行出站連接，且ONTAP叢集必須允許透過連接埠 443 進行到叢集管理 LIF 的入站 HTTP 存取。</block>
+  <block id="58ff78936b6d73707a74f4aca22c20be" category="paragraph">如果代理程式位於雲端，則預先定義的安全群組允許所有出站通訊。</block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="list-text">直接發現的要求</block>
+  <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">本機叢集必須執行ONTAP 9.12.1 或更高版本。</block>
+  <block id="b1268d5945309a2b623dbac8ed28bc83" category="list-text">叢集必須具有與NetApp Console服務的入站和出站連線：</block>
+  <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">\ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection</block>
+  <block id="933d8167f78326f447f349f9de4ec3e0" category="list-text">用於存取控制台的電腦必須與本機ONTAP叢集建立網路連接，類似於您與私有網路中的其他資源建立連接的方式。</block>
+  <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">步驟 3：發現集群</block>
+  <block id="8296ca45bb7cfe0620a93ad852c01e35" category="paragraph">透過以下兩種方式之一從控制台發現您的本機ONTAP叢集：</block>
+  <block id="2e5085fdc5b66595ab2026e38c938367" category="list-text">從 *儲存 &gt; 管理 &gt; 系統* 中，選擇 *新增 +* 並手動新增有關本機ONTAP叢集的詳細資訊。</block>
+  <block id="dba7205afc7b2cf67d79ecc081c7b835" category="list-text">從*儲存&gt;管理&gt;可發現系統*中選擇控制台根據與您的NetApp Console登入電子郵件地址關聯的ONTAP叢集預先發現的叢集。</block>
+  <block id="435159e696cefb3c80615ee1022a13b4" category="paragraph">當您啟動發現過程時，控制台會如下發現叢集：</block>
+  <block id="0cf68afd6fcf0f4c0e3a949071596993" category="list-text">如果您有一個與ONTAP叢集連接的控制台代理，則控制台將使用該代理來發現和管理叢集。</block>
+  <block id="7a166f4df60b8338eed8bc558eb640f0" category="list-text">如果您沒有控制台代理，或者您的代理沒有連接到ONTAP集群，則控制台會自動使用直接發現和管理選項。</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="open-title">手動發現集群</block>
+  <block id="93cbb61b2565b6dbf0515c41d562ae14" category="paragraph">透過輸入叢集管理 IP 位址和管理員使用者帳戶的密碼，在控制台中發現本機ONTAP叢集。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="c27deb5ada399336a287848889d2032c" category="list-text">從導覽選單中，選擇*儲存&gt;管理*。</block>
+  <block id="b13f80bab35d0e5b24adc2f1065c5fdf" category="list-text">在*系統*頁面上，選擇*新增+*。</block>
+  <block id="57a68d192721201de4e91a2f05ce058b" category="list-text">選擇*本地*。</block>
+  <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">在 On-Premises ONTAP旁邊，選擇 *Discover*。</block>
+  <block id="1de006c684d29369fa4392137f9a3894" category="list-text">在「發現」頁面上，輸入叢集管理 IP 位址和管理員使用者帳戶的密碼。</block>
+  <block id="b9c1f4eb5bf92f6b86d5028551817828" category="list-text">如果您直接發現叢集（無需控制台代理），請選擇*儲存憑證*。</block>
+  <block id="485163f9cb024aaf7afa931910bacb59" category="paragraph">如果選擇此選項，則每次從控制台存取系統時無需重新輸入憑證。這些憑證與您自己的NetApp Console使用者登入相關聯。它們不會被保存以供NetApp Console組織中的任何其他人使用。</block>
+  <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">選擇*發現*。</block>
+  <block id="0af90a54ff3386d3c7f24ab678bc3945" category="paragraph">如果您沒有控制台代理，且無法從控制台存取 IP 位址，系統會提示您建立控制台代理。如果您沒有控制台代理，請聯絡控制台管理員來建立一個。</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
+  <block id="e0a9be6d70e2b6cb105481ef3f492446" category="paragraph">控制台將發現的叢集作為系統新增至*系統*頁面。現在您可以開始管理叢集。</block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">了解如何管理直接發現的集群</block>
+  <block id="c3995876aaed94f3589c1d9b516d3805" category="list-text"><block ref="c3995876aaed94f3589c1d9b516d3805" category="inline-link-macro-rx"></block></block>
+  <block id="0453a9f0adad145b25cfdf23836cf986" category="inline-link-macro">了解如何管理使用控制台代理發現的集群</block>
+  <block id="e2c6a7875938c9c1b6c4cd6512ef1725" category="list-text"><block ref="e2c6a7875938c9c1b6c4cd6512ef1725" category="inline-link-macro-rx"></block></block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="open-title">新增預先發現的集群</block>
+  <block id="d98fb334a40f1451770cc167b056faa2" category="paragraph">控制台發現與您的登入電子郵件連結的ONTAP集群，並在 *Discoverable systems* 頁面上將其顯示為未發現的集群。您可以查看未發現的集群列表並逐一添加它們。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於此任務</block>
+  <block id="197b34d819974addadfe4ebfa0e9caed" category="paragraph">請注意「Discoverable systems」頁面上顯示的本機ONTAP叢集的以下資訊：</block>
+  <block id="d608748d30b65126cde843fad7310cca" category="list-text">您用於登入控制台的電子郵件地址必須與已註冊的全級NetApp支援網站 (NSS) 帳戶相關聯。</block>
+  <block id="8319f3680eb39ed6d3cf49d88c4bbdfa" category="list-text">如果您使用 NSS 帳戶登入控制台並導覽至 *Discoverable systems* 頁面，控制台將使用該 NSS 帳戶來尋找與該帳戶關聯的叢集。</block>
+  <block id="3aaa86c6c9eab3f600bc23bde0047763" category="list-text">如果您使用本機帳戶或聯合連線登入控制台並導覽至*Discoverable systems*頁面，控制台會提示您驗證您的電子郵件。如果該電子郵件地址與 NSS 帳戶關聯，控制台將使用該資訊來尋找與該帳戶關聯的叢集。</block>
+  <block id="d550fcc1542a17f7a26ff22860afa620" category="list-text">控制台僅顯示已成功向NetApp傳送AutoSupport訊息的ONTAP叢集。</block>
+  <block id="b85049c68ea838035f2d0a6a579b4c1b" category="list-text">若要刷新庫存清單，請退出*Discoverable systems*頁面，等待 5 分鐘，然後返回。</block>
+  <block id="513c356dd1e7dd7137d642be2b540c72" category="list-text">在 *Discoverable systems* 頁面上，選擇本機ONTAP的 *發現*。</block>
+  <block id="fa855b00dc3ef3d4581d88ac0367d305" category="inline-image-macro">Discoverable systems頁面的螢幕截圖，其中顯示了 12 個未發現的本地ONTAP叢集。</block>
+  <block id="f28eb0a3fd5555f479ab815569393176" category="paragraph"><block ref="f28eb0a3fd5555f479ab815569393176" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">選擇一個集群，然後選擇*發現*。</block>
+  <block id="1b437ef82724c92ca6ff7c3c322cd040" category="paragraph"><block ref="1b437ef82724c92ca6ff7c3c322cd040" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">輸入管理者使用者帳戶的密碼。</block>
+  <block id="2b3c35ab7bf544cbfd4bda7b2b84c68d" category="paragraph">如果您沒有控制台代理，且無法從控制台存取 IP 位址，系統會提示您建立控制台代理。如果您沒有控制台代理，請聯絡控制台管理員來建立一個。</block>
+  <block id="5ae9e7fffccf52fce94c993af9db9dfa" category="summary">NetApp以多種方式提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">獲取協助</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp以多種方式為NetApp Console及其雲端服務提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">獲取雲端提供者文件服務的支持</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">有關雲端提供者文件服務、其基礎設施或使用該服務的任何解決方案的技術支持，請參閱該產品的文檔。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">適用於ONTAP 的Amazon FSx</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">要獲得特定於NetApp及其儲存解決方案和資料服務的技術支持，請使用下面所述的支援選項。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助選項</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項每週 7 天、每天 24 小時免費提供：</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">您目前正在檢視的NetApp Console文件。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">搜尋NetApp知識庫以尋找有助於解決問題的文章。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">加入NetApp Console社區，關注正在進行的討論或創建新的討論。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支援建立案例</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支援選項之外，您還可以在啟動支援後與NetApp支援專家合作解決任何問題。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">開始之前</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">了解如何管理與控制台登入相關的憑證</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">若要使用「建立案例」功能，您必須先將您的NetApp支援網站憑證與您的控制台登入關聯。<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> 。</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要為具有序號的ONTAP系統開啟案例，那麼您的 NSS 帳戶必須與該系統的序號相關聯。</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">在NetApp Console中，選擇「說明」&gt;「支援」。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在「*資源*」頁面上，選擇「技術支援」下的可用選項之一：</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想透過電話與某人交談，請選擇「致電我們」。您將被引導至 netapp.com 上的一個頁面，其中列出了您可以撥打的電話號碼。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">選擇「建立案例」向NetApp支援專家開立票據：</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*服務*：選擇與問題相關的服務。例如，* NetApp Console* 特定於控制台內的工作流程或功能的技術支援問題。</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*系統*：如果適用於存儲，請選擇* Cloud Volumes ONTAP* 或 *On-Prem*，然後選擇相關的工作環境。</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">系統清單位於控制台組織範圍內，並且您在頂部橫幅中選擇了控制台代理。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*個案優先級*：選擇個案的優先級，可以是低、中、高或嚴重。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有關這些優先事項的更多詳細信息，請將滑鼠懸停在欄位名稱旁邊的資訊圖示上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題描述*：提供問題的詳細描述，包括任何適用的錯誤訊息或您執行的故障排除步驟。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題，請輸入其他電子郵件地址。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件（選購）*：一次最多上傳五個附件。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個附件檔案大小限制為 25 MB。支援以下檔案副檔名：txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx 和 csv。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">建立案例表單的螢幕截圖，可讓您向NetApp支援建立案例。</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">將會出現一個彈出窗口，其中顯示您的支援案例編號。NetApp支援專家將審查您的案例並儘快回覆您。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">若要查看支援案例的歷史記錄，您可以選擇*設定&gt;時間軸*並尋找名為「建立支援案例」的操作。最右邊的按鈕可讓您展開操作以查看詳細資訊。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時，您可能會遇到以下錯誤訊息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">“您無權針對所選服務建立案例”</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">此錯誤可能表示 NSS 帳戶及其關聯的記錄公司與NetApp Console帳戶序號的記錄公司不同（即。960xxxx）或工作環境序號。您可以使用以下選項之一尋求協助：</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">管理您的支援案例</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">您可以直接從控制台檢視和管理活動和已解決的支援案例。您可以管理與您的 NSS 帳戶和公司相關的案例。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意以下事項：</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">頁面頂部的案例管理儀表板提供兩種視圖：</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側視圖顯示了您提供的使用者 NSS 帳戶在過去 3 個月內開啟的案件總數。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側的視圖根據您的使用者 NSS 帳戶顯示了過去 3 個月內貴公司層級開設的案件總數。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表中的結果反映了與您選擇的視圖相關的案例。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以新增或刪除感興趣的列，並且可以過濾優先順序和狀態等列的內容。其他欄位僅提供排序功能。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">請查看以下步驟以了解更多詳細資訊。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每個案件級別，我們提供更新案件記錄或關閉尚未關閉或待關閉狀態的案件的功能。</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">在NetApp Console中，選擇「說明」&gt;「支援」。</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">選擇*案例管理*，如果出現提示，請將您的 NSS 帳戶新增至控制台。</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">*案例管理*頁面顯示與您的控制台使用者帳戶關聯的 NSS 帳戶相關的未結案例。這與出現在 *NSS 管理* 頁面頂部的 NSS 帳戶相同。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">（可選）修改表中顯示的資訊：</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在「組織的案例」下，選擇「查看」以查看與您的公司相關的所有案例。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">透過選擇精確的日期範圍或選擇不同的時間範圍來修改日期範圍。</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">過濾列的內容。</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表格中出現的加號圖標</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">透過選擇<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block>然後選擇您想要顯示的列。</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一列出現的帶有三個點的圖標</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">透過選擇管理現有案例<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block>並選擇其中一個可用選項：</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有關特定案例的完整詳細資訊。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例說明*：提供有關您的問題的更多詳細信息，或選擇*上傳文件*以附加最多五個文件。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*結案*：提供有關結案原因的詳細信息，然後選擇*結案*。</block>
+  <block id="a9d2b231be58ba78da487485a012df4d" category="summary">如果您使用控制台代理程式發現了本地ONTAP集群，則可以從標準視圖建立卷，從高級視圖使用系統管理器，並啟用NetApp資料服務。</block>
+  <block id="c6b00f700b6dcffdab6b25d4859b46d6" category="doc">管理使用控制台代理發現的集群</block>
+  <block id="881287054d54d10a72082525431b4094" category="paragraph">如果您使用控制台代理程式發現了本機ONTAP集群，則可以直接從NetApp Console建立卷，存取ONTAP系統管理器（直接從控制台）進行高階管理，並啟用NetApp資料服務。</block>
+  <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">所需的NetApp Console角色：</block>
+  <block id="34333d2783171ddc2c4a2d45b04576db" category="inline-link-macro">了解控制台存取角色。</block>
+  <block id="b6972ad05aaffd2256e1f4196b3f0181" category="paragraph">儲存管理員或系統健康專家。<block ref="22172649aa14c41e7c407b3a26adac77" category="inline-link-macro-rx"></block></block>
+  <block id="cf211f2f2ca8898d52b780cfc60bdcf8" category="paragraph">在「*系統*」頁面上，您使用控制台代理程式發現的叢集的系統圖示類似於以下內容：</block>
+  <block id="9bd6333fd6e2ed164aa82d89dafc36c1" category="inline-image-macro">使用控制台代理程式發現叢集時出現的系統圖示的螢幕截圖。</block>
+  <block id="120e83f6a9a03904f641af7138dda0cf" category="paragraph"><block ref="120e83f6a9a03904f641af7138dda0cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b1875649f81731ada50212ba023b95d" category="paragraph">如果您直接發現系統，系統圖示會顯示「直接」字樣。</block>
+  <block id="4edb0a9cc3286a0bbb7212a914b6e120" category="section-title">從NetApp Console建立FlexVol卷</block>
+  <block id="82a5e9967af6f4bedeeea9542788633b" category="paragraph">使用控制台代理將本機ONTAP叢集新增至控制台後，您可以直接從控制台設定和管理FlexVol磁碟區。</block>
+  <block id="6fe0e1924361c77ff96555f402550a91" category="paragraph">控制台可讓您在現有聚合上建立 NFS 或 CIFS 磁碟區。您無法從本機控制台頁面在本機ONTAP叢集上建立新聚合；但是，您可以從控制台存取對應的ONTAP系統管理員來建立聚合。</block>
+  <block id="07862f39f97a91d6da489cb9fcbd4a6e" category="list-text">在「*系統*」頁面上，選擇要設定磁碟區的本機ONTAP叢集。</block>
+  <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">選擇*卷&gt;新增卷*。</block>
+  <block id="108a74a6cbb575c986177039e07dc411" category="list-text">請依照精靈中的步驟建立磁碟區。</block>
+  <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*詳細資訊、保護和標籤*：輸入有關磁碟區的詳細信息，例如其名稱和大小，然後選擇快照策略。</block>
+  <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">此頁面上的某些欄位是不言自明的。以下列表描述了您可能需要指導的欄位：</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">場地</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">描述</block>
+  <block id="6f6cb72d544962fa333e2e34ce64f719" category="cell">尺寸</block>
+  <block id="f0969d995c7dbb837aab515d5c8cf9cd" category="cell">最大大小取決於您是否啟用精簡配置，從而允許您建立大於可用實體儲存的磁碟區。</block>
+  <block id="426fb47479d0477ed5dbc9388b9add76" category="cell">快照策略</block>
+  <block id="a64d5e9b653437dfe9118e099d6e5fe0" category="cell">Snapshot 副本策略定義了建立NetApp Snapshot 副本的頻率和數量。 NetApp Snapshot 副本是時間點檔案系統映像，它不會影響效能並且只需要最少的儲存空間。您可以選擇預設策略或無策略。對於臨時數據，您可以選擇無，例如 Microsoft SQL Server 的臨時資料庫 (tempdb)。</block>
+  <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*協定*：選擇磁碟區的協定（NFS、CIFS 或 iSCSI），然後設定磁碟區的存取控製或權限。</block>
+  <block id="f5296ac4fcfeea3d9c6e0ac9781d4fb4" category="paragraph">如果您選擇不帶伺服器的 CIFS，系統會提示您使用 Active Directory 或工作群組設定伺服器。</block>
+  <block id="10ca883ec839df9958683234c16faa0c" category="paragraph">以下列表描述了您可能需要指導的欄位：</block>
+  <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">存取控制</block>
+  <block id="b144a097e0b772113f639011f9d76708" category="cell">NFS 導出策略定義了子網路中可以存取該磁碟區的用戶端。預設情況下，控制台輸入一個提供對子網路中所有實例的存取權限的值。</block>
+  <block id="4f365bcd27fae641194545a5a823e30f" category="cell">權限和使用者/群組</block>
+  <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">這些欄位可讓您控制使用者和群組對 SMB 共用的存取等級（也稱為存取控制清單或 ACL）。您可以指定本機或網域 Windows 使用者或群組，或 UNIX 使用者或群組。如果指定網域 Windows 使用者名，則必須使用網域\使用者名稱格式包含使用者的網域。</block>
+  <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*使用情況設定檔*：選擇是否啟用或停用磁碟區上的儲存效率功能，以減少所需的總儲存量。</block>
+  <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">*審核*：審核有關卷的詳細信息，然後選擇*新增*。</block>
+  <block id="18f620d7129450814e89dd8624baaabd" category="section-title">使用NetApp ConsoleAPI 建立FlexGroup卷</block>
+  <block id="be168fd03f07ecad35da4b2f85259c97" category="paragraph">您可以使用NetApp ConsoleAPI 來建立FlexGroup磁碟區。  FlexGroup磁碟區是一種橫向擴充卷，可提供高效能以及自動負載分配。</block>
+  <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">了解如何使用 API 建立FlexGroup卷</block>
+  <block id="7e22f91f39a086e048c658886855471a" category="list-text"><block ref="7e22f91f39a086e048c658886855471a" category="inline-link-rx"></block></block>
+  <block id="e7461a0e7365faaf906e51d1b1097e0a" category="section-title">從NetApp Console存取ONTAP系統管理器</block>
+  <block id="9bf279f44fa1199c88b295609de7537a" category="paragraph">您可以直接在控制台內存取ONTAP系統管理器介面。</block>
+  <block id="8eb2deaa21e5bd2cb3cb15dfa00cd221" category="paragraph">當您從控制台存取ONTAP系統管理員時，您可以存取其他管理功能：</block>
+  <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">進階儲存管理</block>
+  <block id="81988711ef6c9af40c8e8973f25c0bed" category="paragraph">管理一致性群組、共用、qtree、配額和儲存虛擬機器。</block>
+  <block id="62735a856683757bf28f1f02f97c151c" category="list-text">網路管理</block>
+  <block id="9fe3a531f2a0b0fa8d13b28253cecfae" category="paragraph">管理 IP 空間、網路介面、連接埠集和乙太網路連接埠。</block>
+  <block id="5da3380058f326675f5268466ae0c24f" category="list-text">活動和工作</block>
+  <block id="59536015b2a8a8d499cbe947387acb5e" category="paragraph">查看事件日誌、系統警報、作業和稽核日誌。</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="list-text">進階資料保護</block>
+  <block id="18edb92cf2cbf5a1d60be48cff4de617" category="paragraph">保護儲存虛擬機器、LUN 和一致性群組。</block>
+  <block id="f17e729a409e6c0faa3ddab50e856b07" category="list-text">主機管理</block>
+  <block id="36eae32729ecc4b53ba38b252bc6b356" category="paragraph">設定 SAN 啟動器組和 NFS 客戶端。</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">支援的配置</block>
+  <block id="8cc569c03bd345c450afe055c793f724" category="paragraph">運行 9.10.0 或更高版本的本機ONTAP叢集支援透過系統管理器進行高階管理。</block>
+  <block id="0f1ca4e2133610fdc8b23e4db3f7cb0c" category="paragraph">GovCloud 區域或沒有出站網路存取的區域不支援系統管理員整合。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
+  <block id="336f2f04e5298afbd5aa6cb9ef65c0a6" category="paragraph">透過控制台存取ONTAP系統管理器時，本機ONTAP叢集不支援某些系統管理器功能。</block>
+  <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">查看限制列表</block>
+  <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block> 。</block>
+  <block id="8fafecc267da91bb6fb518f47268f73d" category="paragraph">開啟系統的系統管理員。</block>
+  <block id="44b7ffdcf84f31c030ae673e3b4e8e6e" category="list-text">在右側面板的*服務*下，找到*系統管理員*並選擇*開啟*。</block>
+  <block id="c754fa00d5ed3d48cea99de36d7621eb" category="list-text">如果您看到確認訊息，請仔細閱讀並選擇*關閉*。</block>
+  <block id="2384fee5ec28c392c4824455705673ad" category="list-text">使用系統管理員管理ONTAP。</block>
+  <block id="2c069ca180c796bc045f42b645e2abc2" category="list-text">如果需要，請選擇*切換到標準視圖*以透過控制台返回標準管理。</block>
+  <block id="15bab318d1405cd84d8a70ed7aaecf79" category="inline-image-macro">本機ONTAP系統的螢幕截圖，其中顯示了「切換到標準視圖」選項。</block>
+  <block id="3087bb399b70b702117806fdbcf6d90b" category="paragraph"><block ref="3087bb399b70b702117806fdbcf6d90b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">取得系統管理員協助</block>
+  <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">ONTAP文檔</block>
+  <block id="9c1bd416df0d466347865d11e934dec2" category="paragraph">如果您需要協助使用帶有ONTAP的 System Manager，您可以參考<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block>以獲得逐步說明。以下幾個連結可能會有所幫助：</block>
+  <block id="b9cf2d579e6b088870d384fe9910b52f" category="inline-link">捲和 LUN 管理</block>
+  <block id="8fc667c489390551a74eb985b297d37a" category="list-text"><block ref="8fc667c489390551a74eb985b297d37a" category="inline-link-rx"></block></block>
+  <block id="3e49e5936cffd2e96856c25fa0417df2" category="inline-link">網管</block>
+  <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
+  <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">資料保護</block>
+  <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
+  <block id="ea4016495f0c69205df568b441270dea" category="section-title">啟用NetApp資料服務</block>
+  <block id="0e645dc9accc33c592fb30035dcb36d7" category="paragraph">在您的系統上啟用NetApp資料服務來複製資料、備份資料、分層資料等。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="list-text">複製數據</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">在Cloud Volumes ONTAP系統、 Amazon FSx for ONTAP檔案系統和ONTAP叢集之間複製資料。選擇一次性資料複製，這可以幫助您將資料移入和移出雲端，或選擇定期規劃，這可以幫助災難復原或長期資料保留。</block>
+  <block id="279d4e41c00858c0d60b99ca08f46b19" category="inline-link">NetApp Replication文檔</block>
+  <block id="2367e8bf588f100d84a2c29e29e8c907" category="paragraph"><block ref="2367e8bf588f100d84a2c29e29e8c907" category="inline-link-rx"></block></block>
+  <block id="b76ae88aa754ea86825b84c8badae90a" category="list-text">備份數據</block>
+  <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">將資料從本地ONTAP系統備份到雲端中的低成本物件儲存。</block>
+  <block id="bef219d35a4468480b0ce759221cdceb" category="inline-link">NetApp Backup and Recovery文檔</block>
+  <block id="7375334c3c7c9a083e03c7131f344586" category="paragraph"><block ref="7375334c3c7c9a083e03c7131f344586" category="inline-link-rx"></block></block>
+  <block id="b62196e30035e69996a2d1d3a9d64116" category="list-text">掃描、映射和分類您的數據</block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">掃描您的企業內部群集以映射和分類資料並識別私人資訊。這可以幫助降低您的安全和合規風險，降低儲存成本，並協助您的資料遷移專案。</block>
+  <block id="e6d9434fa5832019fb3968212fe539d4" category="inline-link">NetApp Data Classification文檔</block>
+  <block id="c61fc509c7d144be9b40f399aec87219" category="paragraph"><block ref="c61fc509c7d144be9b40f399aec87219" category="inline-link-rx"></block></block>
+  <block id="840a495adf1ad99ebc0b2945d0d37848" category="list-text">將資料分層到雲端</block>
+  <block id="bdaba8e114e06250b64623fa35d279e2" category="list-text">透過自動將非活動資料從ONTAP叢集分層到物件存儲，將您的資料中心擴展到雲端。</block>
+  <block id="dbf638b2df9fdd6b028f3a442df69395" category="inline-link">NetApp Cloud Tiering文檔</block>
+  <block id="bff727b4f0c46a7987ef3660c6da5046" category="paragraph"><block ref="bff727b4f0c46a7987ef3660c6da5046" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">識別容量較低的集群</block>
+  <block id="51e044d8773594c45c2c2e9e8516f151" category="list-text">識別容量較低的群集並檢查其當前和預測容量。</block>
+  <block id="65d5453513b11126367650b2ace7b545" category="inline-link">NetApp生命週期規劃文檔</block>
+  <block id="f62b0728a78dac8e9d66e3b316922630" category="paragraph"><block ref="f62b0728a78dac8e9d66e3b316922630" category="inline-link-rx"></block></block>
+  <block id="e25e74f7a3a1427deef4f7de959c877b" category="summary">如果您未使用NetApp Console代理程式而直接發現了本機ONTAP集群，則可以在NetApp Console中開啟系統，使用ONTAP系統管理器來管理叢集。</block>
+  <block id="f220a85318c5d7c44ae499953fe06af6" category="doc">管理直接在NetApp Console中發現的集群</block>
+  <block id="6812f9c2da4f9b9bd904f6a6b0f3a843" category="paragraph">如果您不使用控制台代理而直接發現了本機ONTAP集群，則可以在控制台中開啟系統來管理叢集並存取ONTAP系統管理員。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
+  <block id="30f10af7823f75e5b832221041c2b2c7" category="paragraph">控制台不支援一些系統管理員功能。</block>
+  <block id="5258b0ad03422027351074f593328453" category="list-text">在「*系統*」頁面上，選擇本機ONTAP系統。</block>
+  <block id="585bfbcb83296ccf6f29d325347284b8" category="paragraph">系統圖示標識直接發現的集群：</block>
+  <block id="be8e40c832ae54c93886321cf506bda7" category="inline-image-macro">系統頁面上顯示的系統圖示的螢幕截圖</block>
+  <block id="a321eaeada5485d9a16aa7b0157e75f3" category="paragraph"><block ref="a321eaeada5485d9a16aa7b0157e75f3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">如果出現提示，請輸入您的ONTAP憑證。</block>
+  <block id="b82d5da63e23eb494fa2701700cbc876" category="paragraph">除非您儲存憑證，否則每次開啟系統時，系統都會提示您使用ONTAP憑證登入。您可以選擇儲存憑證，這樣就無需每次都輸入。您可以在「使用者憑證」頁面上管理這些憑證。在某些情況下，您的控制台管理員（具有組織管理員角色）可能已停用此選項並要求您每次都輸入您的憑證。</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">顯示輸入ONTAP叢集的使用者名稱和密碼的提示的螢幕截圖。</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="01b2e40f70aa5b1647bad39c0e42ed66" category="paragraph">如果您需要協助使用帶有ONTAP的 System Manager，您可以參考<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block>以獲得逐步說明。以下連結提供了更多指導：</block>
+  <block id="dd4fd7614d5aea1d6f631403bb514c52" category="summary">如果您不再想從NetApp Console管理本機ONTAP系統，請將其刪除。</block>
+  <block id="76f38e29c115772351beb41864ff5c81" category="doc">從NetApp Console中刪除本機ONTAP系統</block>
+  <block id="01ec14985a4fc153f411e09eb8fe4a27" category="paragraph">如果您不再想從控制台管理本機ONTAP系統，請將其刪除。</block>
+  <block id="dc939254afcbaac455a5533661695230" category="paragraph">存儲管理員。<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="df296b472c9a688b1de6306b097577a5" category="paragraph">刪除系統不會影響ONTAP叢集。您可以隨時從控制台重新發現它。</block>
+  <block id="01244d40060090a6be948854713ddd90" category="list-text">在「*系統*」頁面上選擇本機ONTAP系統。</block>
+  <block id="7c9f32f73fa06aecdeb526cf83b2809c" category="list-text">選擇選單圖示並選擇*從工作區中刪除*。</block>
+  <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">選擇*刪除*進行確認。</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">在向NetApp技術支援部門提交支援案例之前，您需要將NetApp支援網站帳戶新增至NetApp Console，然後註冊以取得支援。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以獲得支持</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">需要進行支援註冊才能獲得針對NetApp Console及其儲存解決方案和資料服務的技術支援。還需要支援註冊才能啟用Cloud Volumes ONTAP系統的關鍵工作流程。</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">註冊支援並不能使NetApp獲得雲端提供者文件服務的支援。有關雲端提供者文件服務、其基礎設施或使用該服務的任何解決方案的技術支持，請參閱該產品文件中的「取得協助」。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援註冊概述</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">啟動支持權利的註冊方式有兩種：</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">註冊您的NetApp Console帳戶序號（您的 20 位元 960xxxxxxxxx 序號位於控制台中的「支援資源」頁面上）。</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">這可作為控制台內任何服務的單一支援訂閱 ID。每個控制台帳戶都必須註冊。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在您的雲端供應商市場中註冊與訂閱相關的Cloud Volumes ONTAP序號（這些是 20 位元 909201xxxxxxxx 序號）。</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">這些序號通常稱為_PAYGO 序號_，由NetApp Console在Cloud Volumes ONTAP部署時產生。</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">註冊兩種類型的序號可以實現開立支援票和自動產生案例等功能。透過將NetApp支援網站 (NSS) 帳戶新增至控制台即可完成註冊，如下所述。</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">註冊NetApp Console以取得NetApp支持</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">要註冊支援並啟動支援權利，您的NetApp Console帳戶中的一名使用者必須將NetApp支援網站帳戶與其控制台登入名稱關聯。如何註冊NetApp支援取決於您是否已經擁有NetApp支援網站 (NSS) 帳號。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">擁有 NSS 帳戶的現有客戶</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">如果您是擁有 NSS 帳戶的NetApp客戶，只需透過控制台註冊即可獲得支援。</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">選擇“*管理*”&gt;“*憑證*”。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">選擇*使用者憑證*。</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">選擇*新增 NSS 憑證*並依照NetApp支援網站 (NSS) 驗證提示進行操作。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">若要確認註冊過程是否成功，請選擇「幫助」圖標，然後選擇「*支援*」。</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*資源*頁面應顯示您的控制台帳戶已註冊以獲得支援。</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">請注意，如果其他控制台使用者尚未將NetApp支援網站帳戶與其登入名稱關聯，他們將看不到相同的支援註冊狀態。但是，這並不意味著您的帳戶沒有註冊支援。只要組織中的一名使用者遵循了這些步驟，您的帳戶就已註冊。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶但沒有 NSS 帳戶</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">如果您是現有的NetApp客戶，擁有現有授權和序號但沒有 NSS 帳戶，則需要建立 NSS 帳戶並將其與您的控制台登入關聯。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp支援網站使用者註冊表</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">透過完成以下操作建立NetApp支援網站帳戶<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">請務必選擇適當的使用者級別，通常為* NetApp客戶/最終使用者*。</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">請務必複製上面用於序號欄位的控制台帳戶序號（960xxxx）。這將加快帳戶處理速度。</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">完成以下步驟，將您的新 NSS 帳戶與您的控制台登入名稱關聯<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新產品</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp新使用者且沒有 NSS 帳戶，請依照下列步驟操作。</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">在控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從支援註冊頁面找到您的帳戶 ID 序號。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">幫助選單的螢幕截圖，其中支援是第一個選項</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支援註冊網站</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">導航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>並選擇*我不是註冊的NetApp客戶*。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（帶有紅色星號的欄位）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*產品線*欄位中，選擇*雲端管理員*，然後選擇適用的計費提供者。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">從上面的步驟 2 複製您的帳戶序號，完成安全性檢查，然後確認您已閱讀 NetApp 的全球資料隱私政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">一封電子郵件會立即發送到提供的郵箱以完成此安全交易。如果幾分鐘內沒有收到驗證電子郵件，請務必檢查您的垃圾郵件資料夾。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">從電子郵件中確認操作。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認向NetApp提交您的請求並建議您建立NetApp支援網站帳戶。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">請務必複製上面用於序號欄位的帳戶序號（960xxxx）。這將加快處理速度。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp應該在過程中與您聯繫。這是針對新用戶的一次性入職培訓。</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">擁有NetApp支援網站帳號後，請依照下列步驟將該帳號與您的控制台登入關聯<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">關聯 NSS 憑證以獲得Cloud Volumes ONTAP支持</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">需要將NetApp支援網站憑證與您的控制台帳戶關聯，才能為Cloud Volumes ONTAP啟用以下關鍵工作流程：</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">註冊即用即付Cloud Volumes ONTAP系統以獲得支持</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">需要提供您的 NSS 帳戶才能啟動對您的系統的支援並獲得NetApp技術支援資源的存取權限。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自帶授權 (BYOL) 時部署Cloud Volumes ONTAP</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">需要提供您的 NSS 帳戶，以便控制台可以上傳您的許可證金鑰並啟用您購買的期限的訂閱。這包括期限續訂的自動更新。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">將Cloud Volumes ONTAP軟體升級至最新版本</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">將 NSS 憑證與您的NetApp Console帳戶關聯與將 NSS 帳戶與控制台使用者登入相關聯。</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">這些 NSS 憑證與您的特定控制台帳戶 ID 相關聯。屬於控制台組織的使用者可以從*支援 &gt; NSS 管理*存取這些憑證。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶級帳戶，則可以新增一個或多個 NSS 帳戶。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶，則可以新增一個或多個 NSS 帳戶，但不能與客戶級帳戶一起新增。</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">選擇*NSS 管理 &gt; 新增 NSS 帳號*。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">當出現提示時，選擇「*繼續*」以重新導向至 Microsoft 登入頁面。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用 Microsoft Entra ID 作為特定於支援和授權的身份驗證服務的身份提供者。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面，提供您的NetApp支援網站註冊的電子郵件地址和密碼以執行驗證程序。</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">這些操作使控制台能夠使用您的 NSS 帳戶進行許可證下載、軟體升級驗證和未來支援註冊等操作。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 帳戶必須是客戶級帳戶（不是訪客或臨時帳戶）。您可以擁有多個客戶級 NSS 帳戶。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果該帳戶是合作夥伴等級帳戶，則只能有一個 NSS 帳戶。如果您嘗試新增客戶級 NSS 帳戶且合作夥伴級帳戶已存在，您將收到以下錯誤訊息：</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">“此帳戶不允許使用 NSS 客戶類型，因為已經存在不同類型的 NSS 用戶。”</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客戶級 NSS 帳戶並嘗試新增合作夥伴級帳戶，情況也是如此。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後， NetApp將儲存 NSS 使用者名稱。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個水平點的圖標</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的映射到您的電子郵件的 ID。在*NSS 管理*頁面上，您可以顯示來自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登入憑證令牌，還有一個*更新憑證*選項<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您再次登入。請注意，這些帳戶的令牌將在 90 天後過期。我們將發布通知來提醒您此事。</block>
+  <block id="e0edd80b0e8de4011b4f65a694972a94" category="summary">透過數位錢包，您可以查看每個本地ONTAP集群的合約詳細資訊。如果您尚未發現集群，您也可以透過數位錢包來發現集群。</block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">查看集群資訊和合約詳情</block>
+  <block id="6df3323445fef3ae34ed813f1100ca8e" category="paragraph">您可以在NetApp Console中查看每個本機ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以從「訂閱和授權」頁面執行此操作。</block>
+  <block id="93214f7aede3b63ad14457a9b7aa0d59" category="paragraph">儲存管理員或儲存檢視器。<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="f37fdd0902b8053298a78162a62ee3ca" category="inline-link">了解有關從控制台管理本地ONTAP集群許可證的更多信息</block>
+  <block id="f4eeb0c21981518065c13b60deb3e7ee" category="paragraph"><block ref="f4eeb0c21981518065c13b60deb3e7ee" category="inline-link-rx"></block></block>
+  <block id="f38bfe4e4ca70348bab102b16fa118d4" category="summary">了解BlueXP中本機ONTAP叢集管理的新功能。</block>
+  <block id="d49f4ce16fe87aeaa9f7ac3eec77a6b9" category="doc">NetApp Console中的本機ONTAP叢集新增功能</block>
+  <block id="2377e3aaf0d094a2e815b5f4f66a56d0" category="paragraph">了解NetApp Console中本機ONTAP叢集管理的新功能。</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024年11月26日</block>
+  <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024年10月7日</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024年4月22日</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023年7月30日</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023年7月2日</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">從「我的莊園」發現集群</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">現在，您可以透過選擇BlueXP根據與您的BlueXP登入電子郵件地址關聯的ONTAP集群預先發現的集群，從 *Canvas &gt; My estate* 中發現本地ONTAP集群。</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">了解如何從「我的房產」頁面發現集群</block>
+  <block id="1951934b46748440d19112b4ffcd364d" category="paragraph"><block ref="7f676133db675e979593f57c98268fc6" category="inline-link-rx"></block> 。</block>
+  <block id="7e43a762816453626bbf35533afa1755" category="section-title">2023年5月4日</block>
+  <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="section-title">啟用BlueXP backup and recovery</block>
+  <block id="f5303ee41218fc978c78d7744749c918" category="inline-link-macro">了解有關啟用BlueXP backup and recovery的更多信息</block>
+  <block id="b4dac87ad594b04c0dcd76d4227b5f53" category="paragraph">從ONTAP 9.13.1 開始，如果您使用連接器發現集群，則可以使用系統管理員（進階視圖）啟用BlueXP backup and recovery。<block ref="e052ae4f2be0dcbae408a5e7fa45055e" category="inline-link-macro-rx"></block></block>
+  <block id="f3d662d271f05f454f32718233b273b8" category="section-title">升級ONTAP版本映像和硬體韌體</block>
+  <block id="31599c36bc63510a259d9bd99e50d225" category="inline-link-macro">了解有關升級ONTAP和韌體的更多信息</block>
+  <block id="8fc7dd0bb44c44f9797d86872cb017cc" category="paragraph">從ONTAP 9.10.1 開始，您可以使用系統管理員（進階視圖）升級ONTAP版本映像和硬體韌體。您可以選擇接收自動升級以保持最新狀態，也可以從本機電腦或可使用BlueXP存取的伺服器進行手動更新。<block ref="d994c74c98eb05bb27c8a6afc3cc2159" category="inline-link-macro-rx"></block></block>
+  <block id="09dfe5e2e7b8574b925ad72bc7875409" category="admonition">如果您沒有連接器，則無法從本機電腦進行更新，只能從可使用BlueXP存取的伺服器進行更新。</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
+  <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">BlueXP控制台的單一發現選項</block>
+  <block id="7023e56782327af6f409e1889ae33345" category="paragraph">當您從BlueXP控制台發現本機ONTAP叢集時，您現在將看到一個選項：</block>
+  <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">螢幕截圖顯示了創建工作環境時可用的 Discover on-premises ONTAP選項</block>
+  <block id="16f044147dbed62a5d79cc67ff4c4e12" category="paragraph"><block ref="16f044147dbed62a5d79cc67ff4c4e12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">以前，直接發現和使用連接器的發現有單獨的流程。這兩個選項仍然可用，但合併為一個流程。</block>
+  <block id="251a667be8662557b7aba30c53380da3" category="paragraph">當您啟動發現流程時， BlueXP會如下發現叢集：</block>
+  <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">如果您有一個與ONTAP叢集連接的活動連接器， BlueXP將使用該連接器來發現和管理叢集。</block>
+  <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">如果您沒有連接器，或者您的連接器沒有連接到ONTAP集群，那麼BlueXP將自動使用直接發現和管理選項。</block>
+  <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">了解有關發現和管理選項的更多信息</block>
+  <block id="558e7420e0dccdf8c6209c99cb12de8c" category="paragraph"><block ref="8f8244e4b9ad47d49332b24703323193" category="inline-link-rx"></block> 。</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023年1月1日</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">保存ONTAP憑證</block>
+  <block id="7d830b76e4f0014bb7468c045f40070d" category="paragraph">當您開啟未使用連接器直接發現的本機ONTAP工作環境時，現在可以選擇儲存ONTAP叢集憑證，這樣您就無需在每次開啟工作環境時輸入它們。</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">了解有關此選項的更多資訊。</block>
+  <block id="a23c373384e67cc6a8bdb7e286aa5040" category="paragraph"><block ref="a23c373384e67cc6a8bdb7e286aa5040" category="inline-link-rx"></block></block>
+  <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
+  <block id="b5690ceb7beb4242754890f225e479d3" category="section-title">發現本地ONTAP集群的新方法</block>
+  <block id="c01d068bb0abdf0bdf6a772adc67e2cd" category="paragraph">現在，您可以直接發現本機ONTAP集群，而無需使用連接器。此選項僅允許透過系統管理器進行叢集管理。您無法在這種類型的工作環境中啟用任何BlueXP資料服務。</block>
+  <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">了解有關此發現和管理選項的更多信息</block>
+  <block id="d5ea4df2d2834605f028deaaf0d0e4b7" category="paragraph"><block ref="5b619b4d77180540fb45f8f2d3b7390b" category="inline-link-rx"></block> 。</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">FlexGroup卷</block>
+  <block id="c712ad51a932168a912654cc42bbce87" category="paragraph">對於透過連接器發現的本機ONTAP集群， BlueXP中的標準視圖現在顯示透過系統管理員或ONTAP CLI 建立的FlexGroup區。您也可以透過複製、編輯設定、刪除等方式管理這些磁碟區。</block>
+  <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">螢幕截圖顯示了本機ONTAP叢集的磁碟區頁面上的FlexGroup磁碟區。</block>
+  <block id="dc5b52fbc51f76a35c3e45df4d428946" category="paragraph"><block ref="dc5b52fbc51f76a35c3e45df4d428946" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXP不支援創建FlexGroup磁碟區。您需要繼續使用系統管理員或 CLI 來建立FlexGroup磁碟區。</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新的概覽頁面</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">我們引入了一個新的概覽頁面，提供有關本地ONTAP叢集的關鍵詳細資訊。例如，您現在可以查看儲存效率、容量分佈和系統資訊等詳細資訊。</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">您還可以查看有關與其他BlueXP服務整合的詳細信息，這些服務支援資料分層、資料複製和備份。</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">顯示本機ONTAP叢集概覽頁面的螢幕截圖。</block>
+  <block id="78b1fedbe8da959c777a0ee21f8ffd2b" category="paragraph"><block ref="78b1fedbe8da959c777a0ee21f8ffd2b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新設計的捲頁</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">我們重新設計了卷頁面，以提供集群上卷的摘要。摘要顯示了磁碟區的總數、已配置容量、已使用和預留容量以及分層資料量。</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">顯示本地ONTAP叢集的磁碟區頁面的螢幕截圖。</block>
+  <block id="c88a605be9a3ab0b60a88e3190ea5a35" category="paragraph"><block ref="c88a605be9a3ab0b60a88e3190ea5a35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
+  <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的高級視圖</block>
+  <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要對ONTAP內部部署叢集執行高階管理，則可以使用ONTAP系統管理器（ ONTAP系統提供的管理介面）執行此操作。我們已將系統管理器介面直接包含在雲端管理器中，讓您無需離開雲端管理器即可進行高階管理。</block>
+  <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">此進階視圖可作為預覽版使用，適用於執行 9.10.0 或更高版本的本機ONTAP叢集。我們計劃在即將發布的版本中完善這種體驗並增加增強功能。請使用產品內聊天向我們發送回饋。</block>
+  <block id="b1f50daaafce361695fc65132af507a0" category="inline-link-macro">了解如何管理使用連接器發現的集群</block>
+  <block id="2dad31dff556d88636e28fd5a3f6e2ac" category="list-text"><block ref="2dad31dff556d88636e28fd5a3f6e2ac" category="inline-link-macro-rx"></block></block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">數位錢包中有一個“On-Premises ONTAP”選項卡</block>
+  <block id="b6476152a5181e4e223915202e88e1a9" category="paragraph">現在，您可以查看本地ONTAP叢集的清單及其硬體和服務合約到期日期。還提供了有關集群的更多詳細資訊。</block>
+  <block id="c363f739f5bdf65a6ab4cae2b97b0d8a" category="inline-link">了解如何查看此重要的本地集群信息</block>
+  <block id="708ffb45fd0b5501a732cfc35fbc5f96" category="paragraph"><block ref="ae6c564b336ca8e35b8022cee2674c1a" category="inline-link-rx"></block> 。您需要擁有叢集的NetApp支援網站帳戶 (NSS)，並且需要將 NSS 憑證附加到您的 Cloud Manager 帳戶。</block>
+  <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022年1月11日</block>
+  <block id="43129a2fa4cbb252b200eba8ad6d79d2" category="section-title">您新增至本機ONTAP叢集上的磁碟區的標籤可以與標記服務一起使用</block>
+  <block id="ba38e2fd40d303ca0ee880c6170d261e" category="paragraph">您新增至磁碟區的標籤現在與應用程式範本服務的標記功能相關聯，這可以幫助您組織和簡化資源的管理。</block>
+  <block id="815875df5fff32fea9f6fdbf1cbef929" category="sidebar">從NetApp Console管理您的NetApp AFF和FAS系統，以配置儲存、複製資料和配置關鍵的基於雲端的資料服務。</block>
+  <block id="94f32f47073dfcc881de05302c1e3400" category="sidebar">使用NetApp Console進行本機ONTAP叢集管理</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始</block>
+  <block id="7a57cd895ed6c692c6eaacc459f5c5b2" category="sidebar">了解本地ONTAP叢集管理</block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">發現ONTAP集群</block>
+  <block id="b35f676cd57c5084bb41b8d6a60f6523" category="sidebar">在NetApp Console中管理本地ONTAP集群</block>
+  <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">管理直接發現的集群</block>
+  <block id="0178bb7fb4ec8e073676fa0da5569b44" category="sidebar">管理使用控制台代理發現的集群</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格和社區</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="eaf9642551d4f86b536ff28bb60b7751" category="sidebar">NetApp Console中的本機ONTAP集群</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">發行說明</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什麼是新的</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="sidebar">已知限制</block>
+  <block id="54b737e9455930faa1699b8dc97ccd5d" category="sidebar">了解本地ONTAP叢集管理</block>
+  <block id="c5fbee6586294d81141f8dd158707985" category="sidebar">發現本地ONTAP集群</block>
+  <block id="cfa980e1df20173742498c19249c0f50" category="sidebar">管理本地ONTAP集群</block>
+  <block id="9783331c17eb2368b5f57b943b56dd4b" category="sidebar">管理使用控制台代理發現的集群</block>
+  <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">查看集群資訊和合約詳情</block>
+  <block id="3421bf5b6f922329d7ac7ff73a34370f" category="sidebar">刪除本機ONTAP系統</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
+</blocks>

@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
 summary: 了解BlueXP中本機ONTAP叢集管理的新功能。 
 ---
-= NetApp控制台中的本機ONTAP叢集新增功能
+= NetApp Console中的本機ONTAP叢集新增功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 了解BlueXP中本機ONTAP叢集管理的新功能。
 
 
 [role="lead"]
-了解NetApp控制台中本機ONTAP叢集管理的新功能。
+了解NetApp Console中本機ONTAP叢集管理的新功能。
 
 
 
@@ -22,11 +22,11 @@ summary: 了解BlueXP中本機ONTAP叢集管理的新功能。
 
 
 
-=== BlueXP現在是NetApp控制台
+=== BlueXP現在是NetApp Console
 
-NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
 
-有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明"]。
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console發行說明"]。
 
 
 
@@ -104,7 +104,7 @@ ASA r2 系統沒有其他可用的管理選項。您無法使用標準視圖，�
 
 現在，您可以透過選擇BlueXP根據與您的BlueXP登入電子郵件地址關聯的ONTAP集群預先發現的集群，從 *Canvas > My estate* 中發現本地ONTAP集群。
 
-https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["了解如何從「我的資產」頁面發現集群"] 。
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["了解如何從「我的房產」頁面發現集群"] 。
 
 
 

@@ -14,9 +14,9 @@ summary: 透過數位錢包，您可以查看每個本地ONTAP集群的合約詳
 
 
 [role="lead"]
-您可以在NetApp控制台中查看每個本地ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以從「訂閱和授權」頁面執行此操作。
+您可以在NetApp Console中查看每個本機ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以從「訂閱和授權」頁面執行此操作。
 
 .所需的控制台角色：
-儲存管理員或儲存檢視器。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色。"^]
+儲存管理員或儲存檢視器。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["了解有關從控制台管理本地ONTAP集群許可證的更多信息"^]

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-on-prem.html 
 keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin, netapp console, console remove system 
-summary: 如果您不再想從NetApp控制台管理本機ONTAP系統，請將其刪除。 
+summary: 如果您不再想從NetApp Console管理本機ONTAP系統，請將其刪除。 
 ---
-= 從NetApp控制台中刪除本機ONTAP系統
+= 從NetApp Console中刪除本機ONTAP系統
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -17,7 +17,7 @@ summary: 如果您不再想從NetApp控制台管理本機ONTAP系統，請將其
 如果您不再想從控制台管理本機ONTAP系統，請將其刪除。
 
 .所需的控制台角色：
-存儲管理員。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色。"^]
+存儲管理員。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console存取角色。"^]
 
 刪除系統不會影響ONTAP叢集。您可以隨時從控制台重新發現它。
 

@@ -11,7 +11,7 @@ settings:
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
   entries:
-  - title: NetApp控制台中的本機ONTAP集群
+  - title: NetApp Console中的本機ONTAP集群
     url: "/index.html"
   - title: 發行說明
     entries:

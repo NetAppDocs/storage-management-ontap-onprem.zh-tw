@@ -14,9 +14,9 @@ summary: 如果您使用控制台代理程式發現了本地ONTAP集群，則可
 
 
 [role="lead"]
-如果您使用控制台代理程式發現了本機ONTAP集群，則可以直接從NetApp控制台建立卷，存取ONTAP系統管理器（直接從控制台）進行高階管理，並啟用NetApp資料服務。
+如果您使用控制台代理程式發現了本機ONTAP集群，則可以直接從NetApp Console建立卷，存取ONTAP系統管理器（直接從控制台）進行高階管理，並啟用NetApp資料服務。
 
-.所需的NetApp控制台角色：
+.所需的NetApp Console角色：
 儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解控制台存取角色。"^]
 
 在「*系統*」頁面上，您使用控制台代理程式發現的叢集的系統圖示類似於以下內容：
@@ -27,7 +27,7 @@ image:screenshot-connector-we.png["使用控制台代理程式發現叢集時出
 
 
 
-== 從NetApp控制台建立FlexVol卷
+== 從NetApp Console建立FlexVol卷
 
 使用控制台代理將本機ONTAP叢集新增至控制台後，您可以直接從控制台設定和管理FlexVol磁碟區。
 
@@ -80,9 +80,9 @@ image:screenshot-connector-we.png["使用控制台代理程式發現叢集時出
 
 
 
-== 使用NetApp控制台 API 建立FlexGroup卷
+== 使用NetApp ConsoleAPI 建立FlexGroup卷
 
-您可以使用NetApp控制台 API 來建立FlexGroup磁碟區。  FlexGroup磁碟區是一種橫向擴充卷，可提供高效能以及自動負載分配。
+您可以使用NetApp ConsoleAPI 來建立FlexGroup磁碟區。  FlexGroup磁碟區是一種橫向擴充卷，可提供高效能以及自動負載分配。
 
 * https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["了解如何使用 API 建立FlexGroup卷"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["了解什麼是FlexGroup卷"^]
@@ -90,7 +90,7 @@ image:screenshot-connector-we.png["使用控制台代理程式發現叢集時出
 
 
 
-== 從NetApp控制台存取ONTAP系統管理器
+== 從NetApp Console存取ONTAP系統管理器
 
 您可以直接在控制台內存取ONTAP系統管理器介面。
 
@@ -140,7 +140,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
-=== 從NetApp控制台存取ONTAP系統管理器
+=== 從NetApp Console存取ONTAP系統管理器
 
 開啟系統的系統管理員。
 
@@ -159,7 +159,7 @@ image:screenshot-standard-view.png["本機ONTAP系統的螢幕截圖，其中顯
 
 === 取得系統管理員協助
 
-如果您需要協助使用帶有ONTAP的 System Manager，您可以參考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文件"^]以獲得逐步說明。以下幾個連結可能會有所幫助：
+如果您需要協助使用帶有ONTAP的 System Manager，您可以參考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP文檔"^]以獲得逐步說明。以下幾個連結可能會有所幫助：
 
 * https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["捲和 LUN 管理"^]
 * https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["網管"^]
@@ -175,25 +175,25 @@ image:screenshot-standard-view.png["本機ONTAP系統的螢幕截圖，其中顯
 複製數據:: 在Cloud Volumes ONTAP系統、 Amazon FSx for ONTAP檔案系統和ONTAP叢集之間複製資料。選擇一次性資料複製，這可以幫助您將資料移入和移出雲端，或選擇定期規劃，這可以幫助災難復原或長期資料保留。
 +
 --
-https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetApp複製文檔"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetApp Replication文檔"^]
 
 --
 備份數據:: 將資料從本地ONTAP系統備份到雲端中的低成本物件儲存。
 +
 --
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetApp備份和還原文檔"^]
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetApp Backup and Recovery文檔"^]
 
 --
 掃描、映射和分類您的數據:: 掃描您的企業內部群集以映射和分類資料並識別私人資訊。這可以幫助降低您的安全和合規風險，降低儲存成本，並協助您的資料遷移專案。
 +
 --
-https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetApp資料分類文檔"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetApp Data Classification文檔"^]
 
 --
 將資料分層到雲端:: 透過自動將非活動資料從ONTAP叢集分層到物件存儲，將您的資料中心擴展到雲端。
 +
 --
-https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetApp Cloud Tiering 文檔"^]
+https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetApp Cloud Tiering文檔"^]
 
 --
 識別容量較低的集群:: 識別容量較低的群集並檢查其當前和預測容量。

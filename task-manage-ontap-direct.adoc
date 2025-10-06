@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-direct.html 
 keywords: direct discovery, direct, system manager, local, local discovery, 
-summary: 如果您未使用NetApp控制台代理程式而直接發現了本機ONTAP集群，則可以在NetApp控制台中開啟系統，使用ONTAP系統管理器來管理叢集。 
+summary: 如果您未使用NetApp Console代理程式而直接發現了本機ONTAP集群，則可以在NetApp Console中開啟系統，使用ONTAP系統管理器來管理叢集。 
 ---
-= 管理直接在NetApp控制台中發現的集群
+= 管理直接在NetApp Console中發現的集群
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -44,7 +44,7 @@ image:screenshot-credentials.png["顯示輸入ONTAP叢集的使用者名稱和�
 
 . 使用系統管理員管理ONTAP。
 +
-如果您需要協助使用帶有ONTAP的 System Manager，您可以參考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文件"^]以獲得逐步說明。以下連結提供了更多指導：
+如果您需要協助使用帶有ONTAP的 System Manager，您可以參考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP文檔"^]以獲得逐步說明。以下連結提供了更多指導：
 
 +
 ** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["捲和 LUN 管理"^]
