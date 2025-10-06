@@ -1,0 +1,13 @@
+= 創建FlexGroup卷
+:allow-uri-read: 
+
+
+
+
+=== 創建FlexGroup卷
+
+如果您使用連接器管理集群，現在可以使用BlueXP API 建立FlexGroup磁碟區。
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["了解如何建立FlexGroup卷"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["了解什麼是FlexGroup卷"^]
+

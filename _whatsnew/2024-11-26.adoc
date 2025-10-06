@@ -1,0 +1,13 @@
+= 支援具有私有模式的ASA r2 系統
+:allow-uri-read: 
+
+
+
+
+=== 支援具有私有模式的ASA r2 系統
+
+現在，您可以在私人模式下使用BlueXP時發現NetApp ASA r2 系統。從BlueXP 3.9.46 私有模式版本開始提供此支援。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["了解有關ASA r2 系統的更多信息"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["了解BlueXP部署模式"^]
+

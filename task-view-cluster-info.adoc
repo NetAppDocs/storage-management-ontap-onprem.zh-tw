@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: task-view-cluster-info.html 
+keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
+summary: 透過數位錢包，您可以查看每個本地ONTAP集群的合約詳細資訊。如果您尚未發現集群，您也可以透過數位錢包來發現集群。 
+---
+= 查看集群資訊和合約詳情
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以在NetApp控制台中查看每個本地ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以從「訂閱和授權」頁面執行此操作。
+
+.所需的控制台角色：
+儲存管理員或儲存檢視器。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色。"^]
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["了解有關從控制台管理本地ONTAP集群許可證的更多信息"^]

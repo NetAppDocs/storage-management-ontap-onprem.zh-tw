@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: concept-onprem-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
+summary: 您可以從NetApp控制台管理在AFF/ FAS控制器和ONTAP Select上執行的ONTAP叢集。將本機ONTAP系統新增至NetApp控制台，您可以從單一介面管理所有儲存和資料資產。 
+---
+= 了解NetApp控制台中的本機ONTAP叢集管理
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以從NetApp控制台管理在AFF/ FAS控制器和ONTAP Select上執行的ONTAP叢集。將本機ONTAP系統新增至控制台可讓您集中管理所有儲存和資料資產。
+
+
+
+== NetApp控制台
+
+NetApp控制台提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。
+
+您不需要許可證或訂閱即可開始使用NetApp控制台，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連接時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。
+
+詳細了解 https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp控制台"]。
+
+
+
+== 特徵
+
+* 管理 NFS 和 CIFS 卷
+* 透過控制台存取任何託管叢集的ONTAP系統管理器
+* 透過分析和控制獲得健康和性能可觀察性
+* 使用數據服務複製、備份、掃描、分類和分層數據
+* 在控制台中查看硬體和軟體合約狀態信息
+
+
+
+
+== 成本
+
+可能會產生相關費用，但這取決於以下因素：
+
+* 您可以在其中部署控制台代理程式來發現和管理您的叢集。
++
+您可以在雲端或本機安裝控制台代理程式。在雲端安裝控制台代理程式需要花費成本。
+
+* 無論您使用NetApp資料服務（例如NetApp Backup and Recovery、 NetApp Ransomware Resilience 等）。
+

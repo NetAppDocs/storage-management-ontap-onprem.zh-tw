@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery, 
+summary: 如果您未使用NetApp控制台代理程式而直接發現了本機ONTAP集群，則可以在NetApp控制台中開啟系統，使用ONTAP系統管理器來管理叢集。 
+---
+= 管理直接在NetApp控制台中發現的集群
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不使用控制台代理而直接發現了本機ONTAP集群，則可以在控制台中開啟系統來管理叢集並存取ONTAP系統管理員。
+
+.所需的控制台角色：
+儲存管理員或系統健康專家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解控制台存取角色。"^]
+
+.開始之前
+用於存取控制台的電腦必須與本機ONTAP叢集建立網路連接，類似於您與私有網路中的其他資源建立連接的方式。
+
+.限制
+控制台不支援一些系統管理員功能。
+
+link:reference-limitations.html["查看限制列表"] 。
+
+.步驟
+. 在「*系統*」頁面上，選擇本機ONTAP系統。
++
+系統圖示標識直接發現的集群：
+
++
+image:screenshot-direct-discovery-we.png["系統頁面上顯示的系統圖示的螢幕截圖"]
+
+. 如果出現提示，請輸入您的ONTAP憑證。
++
+除非您儲存憑證，否則每次開啟系統時，系統都會提示您使用ONTAP憑證登入。您可以選擇儲存憑證，這樣就無需每次都輸入。您可以在「使用者憑證」頁面上管理這些憑證。在某些情況下，您的控制台管理員（具有組織管理員角色）可能已停用此選項並要求您每次都輸入您的憑證。
+
++
+image:screenshot-credentials.png["顯示輸入ONTAP叢集的使用者名稱和密碼的提示的螢幕截圖。"]
+
+. 使用系統管理員管理ONTAP。
++
+如果您需要協助使用帶有ONTAP的 System Manager，您可以參考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文件"^]以獲得逐步說明。以下連結提供了更多指導：
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["捲和 LUN 管理"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["網管"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["資料保護"^]
+
+
+
