@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-onprem-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptions, licenses, bluexp 
 summary: 您可以從NetApp Console管理在AFF/ FAS控制器和ONTAP Select上執行的ONTAP叢集。將本機ONTAP系統新增至NetApp Console，您可以從單一介面管理所有儲存和資料資產。 
 ---
 = 了解NetApp Console中的本機ONTAP叢集管理

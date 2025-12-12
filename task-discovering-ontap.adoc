@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, subscriptions, licenses, digital advisor 
 summary: 從NetApp Console發現本機ONTAP叢集，以便您可以開始使用控制台提供的ONTAP系統管理器管理磁碟區並執行高階管理。 
 ---
 = 在NetApp Console中發現本地ONTAP集群
@@ -25,7 +25,7 @@ summary: 從NetApp Console發現本機ONTAP叢集，以便您可以開始使用�
 
 您可以透過兩種方式將本機ONTAP叢集新增至控制台。您選擇的方式取決於您的組織中是否安裝了控制台代理：
 
-使用控制台代理進行發現和管理:: 此選項可讓您使用下列功能管理執行ONTAP 8.3 及更高版本的叢集：
+使用控制台代理進行發現和管理:: 此選項可讓您使用以下功能管理執行ONTAP 的叢集：
 +
 --
 * 透過NetApp Console本機提供基本磁碟區操作

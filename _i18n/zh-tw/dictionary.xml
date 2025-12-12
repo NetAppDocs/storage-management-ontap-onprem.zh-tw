@@ -111,7 +111,6 @@
   <block id="d3d762abdaccb1dfe422eda709146098" category="section-title">步驟 1：查看發現和管理選項</block>
   <block id="ae75b75301ec9eda499a56de00351e72" category="paragraph">您可以透過兩種方式將本機ONTAP叢集新增至控制台。您選擇的方式取決於您的組織中是否安裝了控制台代理：</block>
   <block id="b2a374ced122f79938316510ffaddc25" category="list-text">使用控制台代理進行發現和管理</block>
-  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">此選項可讓您使用下列功能管理執行ONTAP 8.3 及更高版本的叢集：</block>
   <block id="cd003ebb69eeea87816020f61834620c" category="list-text">透過NetApp Console本機提供基本磁碟區操作</block>
   <block id="0b5d7397550ec392177f9f574abdf9c2" category="list-text">ONTAP系統管理器（ ONTAP 9.10.0 及更高版本支援），直接從控制台存取每個對應叢集的系統管理器</block>
   <block id="a1471a8ede662ca724fd280a1005d7f9" category="list-text">與提供資料複製、備份和還原、資料分類和雲端分層的 NetApp資料服務集成</block>
@@ -164,7 +163,6 @@
   <block id="b9c1f4eb5bf92f6b86d5028551817828" category="list-text">如果您直接發現叢集（無需控制台代理），請選擇*儲存憑證*。</block>
   <block id="485163f9cb024aaf7afa931910bacb59" category="paragraph">如果選擇此選項，則每次從控制台存取系統時無需重新輸入憑證。這些憑證與您自己的NetApp Console使用者登入相關聯。它們不會被保存以供NetApp Console組織中的任何其他人使用。</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">選擇*發現*。</block>
-  <block id="0af90a54ff3386d3c7f24ab678bc3945" category="paragraph">如果您沒有控制台代理，且無法從控制台存取 IP 位址，系統會提示您建立控制台代理。如果您沒有控制台代理，請聯絡控制台管理員來建立一個。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="e0a9be6d70e2b6cb105481ef3f492446" category="paragraph">控制台將發現的叢集作為系統新增至*系統*頁面。現在您可以開始管理叢集。</block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">了解如何管理直接發現的集群</block>
@@ -322,9 +320,6 @@
   <block id="44b7ffdcf84f31c030ae673e3b4e8e6e" category="list-text">在右側面板的*服務*下，找到*系統管理員*並選擇*開啟*。</block>
   <block id="c754fa00d5ed3d48cea99de36d7621eb" category="list-text">如果您看到確認訊息，請仔細閱讀並選擇*關閉*。</block>
   <block id="2384fee5ec28c392c4824455705673ad" category="list-text">使用系統管理員管理ONTAP。</block>
-  <block id="2c069ca180c796bc045f42b645e2abc2" category="list-text">如果需要，請選擇*切換到標準視圖*以透過控制台返回標準管理。</block>
-  <block id="15bab318d1405cd84d8a70ed7aaecf79" category="inline-image-macro">本機ONTAP系統的螢幕截圖，其中顯示了「切換到標準視圖」選項。</block>
-  <block id="3087bb399b70b702117806fdbcf6d90b" category="paragraph"><block ref="3087bb399b70b702117806fdbcf6d90b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">取得系統管理員協助</block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">ONTAP文檔</block>
   <block id="9c1bd416df0d466347865d11e934dec2" category="paragraph">如果您需要協助使用帶有ONTAP的 System Manager，您可以參考<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block>以獲得逐步說明。以下幾個連結可能會有所幫助：</block>
@@ -362,7 +357,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
   <block id="30f10af7823f75e5b832221041c2b2c7" category="paragraph">控制台不支援一些系統管理員功能。</block>
   <block id="5258b0ad03422027351074f593328453" category="list-text">在「*系統*」頁面上，選擇本機ONTAP系統。</block>
-  <block id="585bfbcb83296ccf6f29d325347284b8" category="paragraph">系統圖示標識直接發現的集群：</block>
   <block id="be8e40c832ae54c93886321cf506bda7" category="inline-image-macro">系統頁面上顯示的系統圖示的螢幕截圖</block>
   <block id="a321eaeada5485d9a16aa7b0157e75f3" category="paragraph"><block ref="a321eaeada5485d9a16aa7b0157e75f3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">如果出現提示，請輸入您的ONTAP憑證。</block>
@@ -449,10 +443,7 @@
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的映射到您的電子郵件的 ID。在*NSS 管理*頁面上，您可以顯示來自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登入憑證令牌，還有一個*更新憑證*選項<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您再次登入。請注意，這些帳戶的令牌將在 90 天後過期。我們將發布通知來提醒您此事。</block>
-  <block id="e0edd80b0e8de4011b4f65a694972a94" category="summary">透過數位錢包，您可以查看每個本地ONTAP集群的合約詳細資訊。如果您尚未發現集群，您也可以透過數位錢包來發現集群。</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">查看集群資訊和合約詳情</block>
-  <block id="6df3323445fef3ae34ed813f1100ca8e" category="paragraph">您可以在NetApp Console中查看每個本機ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以從「訂閱和授權」頁面執行此操作。</block>
-  <block id="93214f7aede3b63ad14457a9b7aa0d59" category="paragraph">儲存管理員或儲存檢視器。<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
   <block id="f37fdd0902b8053298a78162a62ee3ca" category="inline-link">了解有關從控制台管理本地ONTAP集群許可證的更多信息</block>
   <block id="f4eeb0c21981518065c13b60deb3e7ee" category="paragraph"><block ref="f4eeb0c21981518065c13b60deb3e7ee" category="inline-link-rx"></block></block>
   <block id="f38bfe4e4ca70348bab102b16fa118d4" category="summary">了解BlueXP中本機ONTAP叢集管理的新功能。</block>
@@ -549,4 +540,24 @@
   <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">查看集群資訊和合約詳情</block>
   <block id="3421bf5b6f922329d7ac7ff73a34370f" category="sidebar">刪除本機ONTAP系統</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
+  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">從NetApp Console查看ONTAP系統時的可用性增強（僅限標準模式）</block>
+  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">NetApp Console中的「系統」頁面在管理磁碟區和叢集時提高了清晰度和易用性。這些更新使用戶體驗與較新版本的ONTAP系統管理器更加一致，並簡化了導覽。</block>
+  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">ONTAP 9.5 及更高版本包含叢集容量（僅限控制台標準模式）</block>
+  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">*系統 &gt; 概述* 頁面會顯示叢集大小以及執行ONTAP 9.5 及更高版本的叢集的ONTAP版本。</block>
+  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">對於受限模式下的NetApp Console或ONTAP版本 9.5 及更低版本，已設定磁碟區的資訊保持不變。</block>
+  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">如果您擁有超過 20 個本機ONTAP集群，則「系統」頁面上的「磁碟區」標籤預設顯示為網格視圖。</block>
+  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">當您在NetApp Console中管理超過 20 個本機ONTAP叢集時，「磁碟區」標籤預設顯示網格視圖，以便於導覽。卡片視圖已停用。</block>
+  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">此變更僅適用於標準模式，並且適用於ONTAP版本 9.6 及更高版本。</block>
+  <block id="9ee119ab2dcf63f016d2e0a38814800c" category="list-text">此選項可讓您使用以下功能管理執行ONTAP 的叢集：</block>
+  <block id="2c03e5aeaee6bb10a1d8259341e9d865" category="paragraph">如果您沒有控制台代理，且無法從控制台存取 IP 位址，系統會提示您建立控制台代理。如果您沒有控制台代理，請聯絡控制台管理員來建立一個。</block>
+  <block id="e64988410ad4ea45fd1d4fec60f9cab1" category="list-text">如果需要，選擇「返回」即可透過控制台返回標準管理介面。</block>
+  <block id="bfde21f5cad27245314588c17b1cb952" category="paragraph">「直接」一詞指的是直接發現的聚集：</block>
+  <block id="8c89def7c408335aba8261028c38e00e" category="list-text">在「系統詳細資料」頁面中，選擇「輸入系統」。</block>
+  <block id="a9c2122acfb42d14ddac51323f2bed1a" category="summary">您可以從「訂閱和授權」頁面查看每個本地ONTAP集群的合約詳情。</block>
+  <block id="b8be7188fd579fddbf3fe3733ebb4b8e" category="paragraph">您可以直接從NetApp Console查看容量資訊以及授權資訊。</block>
+  <block id="d298946a933112cbf57a2d5192ecf1a3" category="section-title">查看容量資訊</block>
+  <block id="c98d321687bb81e378434880f3f6aae0" category="paragraph">當您從「系統」頁面選擇本機ONTAP叢集時，「系統詳細資料」頁面將顯示叢集的容量信息，包括總容量、已使用容量和可用容量。</block>
+  <block id="2ddee4e80b9a154cfc971c7cf4848736" category="section-title">查看許可證和合約詳情</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
+  <block id="426c031f387e762bb968fd54671cf5a6" category="paragraph">&lt;stdin&gt; 中存在未解析的指令 - include::_whatsnew/2025-12-08.adoc[]</block>
 </blocks>
