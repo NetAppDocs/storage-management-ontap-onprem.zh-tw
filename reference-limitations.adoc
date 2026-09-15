@@ -18,6 +18,7 @@ summary: 已知限制標識了該產品的此版本不支援或無法與其正�
 
 
 
+[[limitations-related-to-asa-r2-systems]]
 == 與ASA r2 系統相關的限制
 
 發現NetApp ASA r2 系統後，您將被導向到系統管理員。
@@ -28,12 +29,14 @@ https://docs.netapp.com/us-en/asa-r2/index.html["了解有關ASA r2 系統的更
 
 
 
+[[unsupported-clusters]]
 == 不受支援的集群
 
 控制台不支援配置了 SAML 身份驗證的本機ONTAP叢集。
 
 
 
+[[system-manager-limitations]]
 == 系統管理器限制
 
 控制台不支援以下系統管理員功能：

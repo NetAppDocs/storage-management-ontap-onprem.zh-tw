@@ -4,6 +4,7 @@
 
 
 
+[[usability-enhancements-when-viewing-ontap-systems-from-netapp-console-standard-mode-only]]
 === 從NetApp Console查看ONTAP系統時的可用性增強（僅限標準模式）
 
 NetApp Console中的「系統」頁面在管理磁碟區和叢集時提高了清晰度和易用性。這些更新使用戶體驗與較新版本的ONTAP系統管理器更加一致，並簡化了導覽。

@@ -18,12 +18,14 @@ summary: 您可以從「訂閱和授權」頁面查看每個本地ONTAP集群的
 
 
 
+[[view-capacity-information]]
 == 查看容量資訊
 
 當您從「系統」頁面選擇本機ONTAP叢集時，「系統詳細資料」頁面將顯示叢集的容量信息，包括總容量、已使用容量和可用容量。
 
 
 
+[[view-license-and-contract-details]]
 == 查看許可證和合約詳情
 
 您可以從「訂閱和授權」頁面查看每個本地ONTAP集群的合約詳情。

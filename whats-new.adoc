@@ -18,16 +18,19 @@ summary: 了解BlueXP中本機ONTAP叢集管理的新功能。
 
 
 
+[[08-december-2025]]
 == 2025年12月8日
 
 <stdin> 中存在未解析的指令 - include::_whatsnew/2025-12-08.adoc[]
 
 
 
+[[06-october-2025]]
 == 2025年10月6日
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP現在是NetApp Console
 
 NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
@@ -36,20 +39,24 @@ NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內
 
 
 
+[[12-may-2025]]
 == 2025年5月12日
 
 
 
+[[bluexp-access-role-needed]]
 === 需要BlueXP訪問角色
 
 現在，您需要以下存取角色之一來查看、發現或管理本機ONTAP叢集：組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解訪問角色。"^]
 
 
 
+[[26-november-2024]]
 == 2024年11月26日
 
 
 
+[[support-for-asa-r2-systems-with-private-mode]]
 === 支援具有私有模式的ASA r2 系統
 
 現在，您可以在私人模式下使用BlueXP時發現NetApp ASA r2 系統。從BlueXP 3.9.46 私有模式版本開始提供此支援。
@@ -60,10 +67,12 @@ NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內
 
 
 
+[[7-october-2024]]
 == 2024年10月7日
 
 
 
+[[support-for-asa-r2-systems]]
 === 支援ASA r2 系統
 
 現在，在標準模式或限制模式下使用BlueXP時，您可以在BlueXP中發現NetApp ASA r2 系統。發現NetApp ASA r2 系統並開啟工作環境後，您將直接進入系統管理員。
@@ -78,20 +87,24 @@ ASA r2 系統沒有其他可用的管理選項。您無法使用標準視圖，�
 
 
 
+[[22-april-2024]]
 == 2024年4月22日
 
 
 
+[[volume-templates-no-longer-supported]]
 === 不再支援磁碟區模板
 
 您無法再從範本建立磁碟區。此操作與BlueXP修復服務相關，但該服務不再可用。
 
 
 
+[[30-july-2023]]
 == 2023年7月30日
 
 
 
+[[create-flexgroup-volumes]]
 === 創建FlexGroup卷
 
 如果您使用連接器管理集群，現在可以使用BlueXP API 建立FlexGroup磁碟區。
@@ -102,10 +115,12 @@ ASA r2 系統沒有其他可用的管理選項。您無法使用標準視圖，�
 
 
 
+[[2-july-2023]]
 == 2023年7月2日
 
 
 
+[[cluster-discovery-from-my-estate]]
 === 從「我的莊園」發現集群
 
 現在，您可以透過選擇BlueXP根據與您的BlueXP登入電子郵件地址關聯的ONTAP集群預先發現的集群，從 *Canvas > My estate* 中發現本地ONTAP集群。
@@ -114,16 +129,19 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 
 
+[[4-may-2023]]
 == 2023年5月4日
 
 
 
+[[enable-bluexp-backup-and-recovery]]
 === 啟用BlueXP backup and recovery
 
 從ONTAP 9.13.1 開始，如果您使用連接器發現集群，則可以使用系統管理員（進階視圖）啟用BlueXP backup and recovery。link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["了解有關啟用BlueXP backup and recovery的更多信息"^]
 
 
 
+[[upgrade-ontap-version-image-and-hardware-firmware]]
 === 升級ONTAP版本映像和硬體韌體
 
 從ONTAP 9.10.1 開始，您可以使用系統管理員（進階視圖）升級ONTAP版本映像和硬體韌體。您可以選擇接收自動升級以保持最新狀態，也可以從本機電腦或可使用BlueXP存取的伺服器進行手動更新。link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["了解有關升級ONTAP和韌體的更多信息"^]
@@ -133,10 +151,12 @@ NOTE: 如果您沒有連接器，則無法從本機電腦進行更新，只能�
 
 
 
+[[3-april-2023]]
 == 2023年4月3日
 
 
 
+[[single-discovery-option-from-the-bluexp-console]]
 === BlueXP控制台的單一發現選項
 
 當您從BlueXP控制台發現本機ONTAP叢集時，您現在將看到一個選項：
@@ -155,10 +175,12 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 
 
+[[1-january-2023]]
 == 2023年1月1日
 
 
 
+[[save-ontap-credentials]]
 === 保存ONTAP憑證
 
 當您開啟未使用連接器直接發現的本機ONTAP工作環境時，現在可以選擇儲存ONTAP叢集憑證，這樣您就無需在每次開啟工作環境時輸入它們。
@@ -167,10 +189,12 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-manage-ontap-
 
 
 
+[[4-december-2022]]
 == 2022年12月4日
 
 
 
+[[new-way-to-discover-on-premises-ontap-clusters]]
 === 發現本地ONTAP集群的新方法
 
 現在，您可以直接發現本機ONTAP集群，而無需使用連接器。此選項僅允許透過系統管理器進行叢集管理。您無法在這種類型的工作環境中啟用任何BlueXP資料服務。
@@ -179,6 +203,7 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 
 
+[[flexgroup-volumes]]
 === FlexGroup卷
 
 對於透過連接器發現的本機ONTAP集群， BlueXP中的標準視圖現在顯示透過系統管理員或ONTAP CLI 建立的FlexGroup區。您也可以透過複製、編輯設定、刪除等方式管理這些磁碟區。
@@ -189,10 +214,12 @@ BlueXP不支援創建FlexGroup磁碟區。您需要繼續使用系統管理員�
 
 
 
+[[18-september-2022]]
 == 2022年9月18日
 
 
 
+[[new-overview-page]]
 === 新的概覽頁面
 
 我們引入了一個新的概覽頁面，提供有關本地ONTAP叢集的關鍵詳細資訊。例如，您現在可以查看儲存效率、容量分佈和系統資訊等詳細資訊。
@@ -203,6 +230,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 
 
+[[redesigned-volumes-page]]
 === 重新設計的捲頁
 
 我們重新設計了卷頁面，以提供集群上卷的摘要。摘要顯示了磁碟區的總數、已配置容量、已使用和預留容量以及分層資料量。
@@ -211,10 +239,12 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 
 
+[[7-june-2022]]
 == 2022年6月7日
 
 
 
+[[new-advanced-view]]
 === 新的高級視圖
 
 如果您需要對ONTAP內部部署叢集執行高階管理，則可以使用ONTAP系統管理器（ ONTAP系統提供的管理介面）執行此操作。我們已將系統管理器介面直接包含在雲端管理器中，讓您無需離開雲端管理器即可進行高階管理。
@@ -227,10 +257,12 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 
 
+[[27-february-2022]]
 == 2022年2月27日
 
 
 
+[[an-on-premises-ontap-tab-is-available-in-the-digital-wallet]]
 === 數位錢包中有一個“On-Premises ONTAP”選項卡
 
 現在，您可以查看本地ONTAP叢集的清單及其硬體和服務合約到期日期。還提供了有關集群的更多詳細資訊。
@@ -239,10 +271,12 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-
 
 
 
+[[11-january-2022]]
 == 2022年1月11日
 
 
 
+[[tags-that-you-add-to-volumes-on-on-premises-ontap-clusters-can-be-use-with-the-tagging-service]]
 === 您新增至本機ONTAP叢集上的磁碟區的標籤可以與標記服務一起使用
 
 您新增至磁碟區的標籤現在與應用程式範本服務的標記功能相關聯，這可以幫助您組織和簡化資源的管理。

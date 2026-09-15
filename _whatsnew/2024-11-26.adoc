@@ -4,6 +4,7 @@
 
 
 
+[[support-for-asa-r2-systems-with-private-mode]]
 === 支援具有私有模式的ASA r2 系統
 
 現在，您可以在私人模式下使用BlueXP時發現NetApp ASA r2 系統。從BlueXP 3.9.46 私有模式版本開始提供此支援。

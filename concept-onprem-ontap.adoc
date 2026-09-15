@@ -18,6 +18,7 @@ summary: 您可以從NetApp Console管理在AFF/ FAS控制器和ONTAP Select上�
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。
@@ -28,6 +29,7 @@ NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服
 
 
 
+[[features]]
 == 特徵
 
 * 管理 NFS 和 CIFS 卷
@@ -39,6 +41,7 @@ NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服
 
 
 
+[[cost]]
 == 成本
 
 可能會產生相關費用，但這取決於以下因素：

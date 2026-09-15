@@ -21,6 +21,7 @@ summary: 從NetApp Console發現本機ONTAP叢集，以便您可以開始使用�
 
 
 
+[[step-1-review-discovery-and-management-options]]
 == 步驟 1：查看發現和管理選項
 
 您可以透過兩種方式將本機ONTAP叢集新增至控制台。您選擇的方式取決於您的組織中是否安裝了控制台代理：
@@ -51,6 +52,7 @@ summary: 從NetApp Console發現本機ONTAP叢集，以便您可以開始使用�
 
 
 
+[[step-2-set-up-your-environment]]
 == 第 2 步：設定環境
 
 在發現本機ONTAP叢集之前，請確保您已符合下列要求。
@@ -103,6 +105,7 @@ summary: 從NetApp Console發現本機ONTAP叢集，以便您可以開始使用�
 
 
 
+[[step-3-discover-a-cluster]]
 == 步驟 3：發現集群
 
 透過以下兩種方式之一從控制台發現您的本機ONTAP叢集：

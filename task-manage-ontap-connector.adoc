@@ -27,6 +27,7 @@ image:screenshot-connector-we.png["使用控制台代理程式發現叢集時出
 
 
 
+[[create-flexvol-volumes-from-the-netapp-console]]
 == 從NetApp Console建立FlexVol卷
 
 使用控制台代理將本機ONTAP叢集新增至控制台後，您可以直接從控制台設定和管理FlexVol磁碟區。
@@ -80,6 +81,7 @@ image:screenshot-connector-we.png["使用控制台代理程式發現叢集時出
 
 
 
+[[create-flexgroup-volumes-with-the-netapp-console-api]]
 == 使用NetApp ConsoleAPI 建立FlexGroup卷
 
 您可以使用NetApp ConsoleAPI 來建立FlexGroup磁碟區。  FlexGroup磁碟區是一種橫向擴充卷，可提供高效能以及自動負載分配。
@@ -90,12 +92,14 @@ image:screenshot-connector-we.png["使用控制台代理程式發現叢集時出
 
 
 
+[[access-ontap-system-manager-from-netapp-console]]
 == 從NetApp Console存取ONTAP系統管理器
 
 您可以直接在控制台內存取ONTAP系統管理器介面。
 
 
 
+[[features]]
 === 特徵
 
 當您從控制台存取ONTAP系統管理員時，您可以存取其他管理功能：
@@ -124,6 +128,7 @@ image:screenshot-connector-we.png["使用控制台代理程式發現叢集時出
 
 
 
+[[supported-configurations]]
 === 支援的配置
 
 運行 9.10.0 或更高版本的本機ONTAP叢集支援透過系統管理器進行高階管理。
@@ -132,6 +137,7 @@ GovCloud 區域或沒有出站網路存取的區域不支援系統管理員整�
 
 
 
+[[limitations]]
 === 限制
 
 透過控制台存取ONTAP系統管理器時，本機ONTAP叢集不支援某些系統管理器功能。
@@ -140,6 +146,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
+[[access-ontap-system-manager-from-netapp-console]]
 === 從NetApp Console存取ONTAP系統管理器
 
 開啟系統的系統管理員。
@@ -154,6 +161,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
+[[get-help-with-system-manager]]
 === 取得系統管理員協助
 
 如果您需要協助使用帶有ONTAP的 System Manager，您可以參考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP文檔"^]以獲得逐步說明。以下幾個連結可能會有所幫助：
@@ -165,6 +173,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
+[[enable-netapp-data-services]]
 == 啟用NetApp資料服務
 
 在您的系統上啟用NetApp資料服務來複製資料、備份資料、分層資料等。

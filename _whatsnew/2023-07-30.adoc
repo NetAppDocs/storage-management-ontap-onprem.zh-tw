@@ -4,6 +4,7 @@
 
 
 
+[[create-flexgroup-volumes]]
 === 創建FlexGroup卷
 
 如果您使用連接器管理集群，現在可以使用BlueXP API 建立FlexGroup磁碟區。
